@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Auditory Attention &#8212; Predictive modeling from physiological signals</title>
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <link rel="shortcut icon" href="../_static/AAtt.ico"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="People" href="authors.html" />
+    <meta content="True" name="HandheldFriendly">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="auditory attention, EEG, GSP, PPG, python, predictive modeling">
+
+    <script type="text/javascript">
+      function updateTopMenuPosition(height, width) {
+            if($(window).scrollTop() > height && $(window).outerWidth() > 1024) {
+                //begin to scroll
+                $('.related-wrapper').css("z-index", 1000)
+                $('.related-wrapper').css("position", "sticky")
+                $('.related-wrapper').css("top", 0)
+                $('.related-wrapper').css("width", width)
+            } else {
+                //lock it back into place
+                $('.related-wrapper').css("position", "relative")
+                $('.related-wrapper').css("top", 0)
+            }
+        }
+
+        $(function() {
+            var banner_height = $('#logo-banner').outerHeight()
+            var banner_width = $('#logo-banner').outerWidth()
+            var width = $('.related-wrapper').css("height", $('.related').outerHeight())
+
+            updateTopMenuPosition(banner_height, width)
+
+            $(window).scroll(function(event) {
+                updateTopMenuPosition(banner_height, width)
+            });
+
+            $(window).resize(function(event) {
+                var banner_width = $('#logo-banner').outerWidth()
+                var menu_height = $('.related').outerHeight()
+                $('.related').css("width", banner_width)
+                $('.related-wrapper').css("height", menu_height)
+                updateTopMenuPosition(banner_height, width)
+            })
+        });
+
+        </script>
+
+</head>
+
+<body>
+<div id="logo-banner">
+  <div class="logo">
+    <a href="#">
+      <img src="../_static/AdAtt_logo2.png" alt="AudAtenn logo"  border="0" />
+      </a>
+    </div>
+
+    <!-- A tag cloud to make it easy for people to find what they are
+                           looking for -->
+    <div class="tags">
+      <ul>
+      <li><big><a href="../dataset/dataset.html">Dataset</a></big></li>
+      <li><big><a href="../wavelet/dwt_wavelet.html">DWT</a></big></li>
+      <li><big><a href="../examples/examples.html">Examples</a></big></li>
+      <li><big><a href="../algorithms/ica_algo.html">ICA</a></big></li>
+      <li><big><a href="../algorithms/artifact_algo.html">Artifact Removal</a></big></li>
+      <li><big><a href="../wavelet/cwt_wavelet.html">CWT</a></big></li>
+      </ul>
+      </div>
+
+    <div class="banner">
+      <h1>Physiology of Auditory Attention (PhyAAt):</h1>
+      <h2>Predictive analysis with physiological signals</h2>
+      </div>
+
+    </div>
+
+<div class=related-wrapper>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a></li>
+        <li class="right" >
+          <a href="authors.html" title="People"
+             accesskey="N">next</a> |</li>
+      <li><a href="../index.html">Home</a> |&nbsp;</li>
+      <li><a href="../experiment/experiment.html">Experiment paradigm</a> |&nbsp;</li>
+      <li><a href="../dataset/dataset.html">Dataset</a> |&nbsp;</li>
+      <li><a href="../algorithms/index.html">Algorithms</a> |&nbsp;</li>
+      <li><a href="../analysis/index.html">Analysis</a> |&nbsp;</li>
+      <li><a href="../examples/index.html">Examples</a> |&nbsp;</li>
+      <li><a href="../deeplearning/deeplearning.html">Deep Learning</a> |&nbsp;</li>
+      <li><a href="../authors.html">Authors</a> |&nbsp;</li>
+      <li id="navbar-about"><a href="../authors.html">About</a>|&nbsp;</li>
+            </ul>
+          </div>
+</div>
+
+<div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+<div class="sphinxsidebarwrapper">
+
+<h4> Visualization </h4>
+<ul><li><a class="reference external" href="../viz/visualization.html"><img alt="EEG Raw" src="../_images0/EEGViz_Raw1.gif" width="220" ></a></li></ul>
+
+<h4> Updates </h4>
+<ul></ul><ul></ul>
+
+<h4> Dataset </h4>
+<ul class="simple">
+<li><div id="download-container"><a href="../introduction.html#installation" class="btn btn-primary">Download</a></div></li>
+</ul>
+
+<h4> Development </h4>
+<ul class="simple"><li><p><a class="reference external" href="https://github.com/PhyAAt">GitHub</a></p></li>
+<li><p>All material Free Software: <strong>BSD license</strong> (3 clause).</p></li>
+<li><p><a href="../authors.html">Authors</a></p></li>
+</ul>
+
+<h4> Giving credit </h4>
+<ul class="simple"><li><p>Please consider <a href="../authors.html#citing">citing the papers</a>.</p></li></ul>
+
+</div>
+</div>
+
+<div class="document">
+<div class="documentwrapper">
+<div class="bodywrapper">
+<div class="body" role="main">
+
+  <div class="section" id="experiment">
+  <h1>Under construction<a class="headerlink" href="#experiment" title="Permalink to this headline">¶</a></h1>
+  <p>This ...:</p>
+  <!--<li><a class="reference external" href="http://nikeshbajaj.in">Nikesh Bajaj<img alt="Nikesh Bajaj" src="_images0/nikeshbajaj.png" width="100"></a></li> -->
+  <div class="section" id="institutions">
+  <h2>Under construction..<a class="headerlink" href="#institutions" title="Permalink to this headline">¶</a></h2>
+  <a><img alt="Under construction" src="../_images0/Underconstruction.png" width="300"></a>
+  </div>
+
+  </div>
+
+<a><img alt="Under construction" src="https://raw.githubusercontent.com/Nikeshbajaj/EEG_Visualization/master/Figures/AllTogether.gif" width="100%"></a>
+
+</div>
+</div>
+</div>
+<div class="clearer"></div>
+</div>
+
+<div class="footer">
+  &copy; Auditory Attention <a href="https://phyaat.github.io/">Home</a>
+  <span style="padding-left: 5ex;"><a href="../_sources/index.rst.txt" rel="nofollow">Extras</a> </span>
+</div>
+<div class="clearer"></div>
+<div class="container index-upper" >
+<div class="row-fluid">
+<div>
+<span style="padding-left: 5ex;"><big><a>Collabration</a></big></span>
+<a class="reference internal" href="authors.html#institutions" style="text-decoration: none; white-space: nowrap" >
+<span style="padding-left: 5ex;">
+<img id="index-funding-logo-big" src="../_static/logos/elios-logo.png" title="elioslab" style="max-height: 36px">
+</span>
+<span style="padding-left: 5ex;">
+<img id="index-funding-logo-small" src="../_static/logos/unige-logo.png" title="University of Genoa" style="max-height: 42px">
+</span>
+<span style="padding-left: 5ex;">
+<img id="index-funding-logo-small" src="../_static/logos/ice-logo.png" title="ICE" style="max-height: 42px">
+</span>
+<span style="padding-left: 5ex;">
+<img id="index-funding-logo-small" src="../_static/logos/cis-logo.png" title="Center for Intelligent Sensing" style="max-height: 36px">
+</span>
+<span style="padding-left: 5ex;">
+<img id="index-funding-logo-small" src="../_static/logos/qmul-logo.png" title="Queen Mary University of London" style="max-height: 36px">
+</span>
+</a>
+<span style="padding-left: 10ex;">
+<a class="reference internal" href="../authors.html#institutions">More information</a>
+</span>
+</div>
+</div>
+</div>
+</body>
+</html>

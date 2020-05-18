@@ -1,0 +1,14 @@
+# Name of website
+title: PhyAAt
+email: nikkeshbajaj@gmail.com
+author: Nikesh Bajaj
+url: https://PhyAAt.github.io
+
+navbar-links:
+  Introduction: "introduction"
+  Experiment:
+    - Experiment: "https://PhyAAt.github.io/experiment/index"
+    - Dataset: "https://PhyAAt.github.io/dataset"
+  Author's home: "http://nikeshbajaj.in"
+
+name: phyaat.github.io
