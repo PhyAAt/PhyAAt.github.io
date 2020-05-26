@@ -1,55 +1,46 @@
 ---
-title: deep learning
+title: Preditive Modeling
 layout: base
 ---
-
-
+<!--<div class="index-paragraph docutils container"><b>being update ...</b> </div> -->
 
 # Machine Learning Models
+<!--<h2 style="text-align:left;"><u>Getting Started - Table of Content</u></h2> -->
+<p style="text-align:right; font-weight:bold;">Execute all the Notebook with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?urlpath=lab/tree/PhyAAt_Notebooks" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
-## Support Vector Machine
+<div id="index-grid-half" class="section group">
+<h3 style="text-align:left;">
+<ul class="simple" style="line-height:1.4;">
+  <li><a href="../introduction" target="_blank">Introduction: Getting Started</a>
+  <br><span style="font-weight:normal"><font size="3">Installation, download data and extract segments and feautures for predictive analysis</font></span></li>
+  <li><a href="1_QuickStartSVM" target="_blank">A quick start with SVM (LWR task)</a>
+  <br><span style="font-weight:normal"><font size="3">Starting with LWR classification using Rhythmic features (spectral) without artifact removal</font></span></li>
+  <li><a href="2_PredictiveTasksUsingSVM" target="_blank"><u>All four predictive tasks using SVM</u></a>
+  <br><span style="font-weight:normal"><font size="3">Applying ICA based artifact removal, Segment-wise feature extreaction</font></span><br><a href="2_PredictiveTasksUsingSVM" target="_blank"><img src = "figures/example1_svm_all_tasks.png" width='60%'></a></li>
+  <li><a href="3_TuningPreprocessing" target="_blank">Tuning the preprocessing parameters</a>
+  <br><span style="font-weight:normal"><font size="3">Tuning the paraters of filtering and Artifact removal method</font></span></li>
+  <li><a href="4_FeatureExtraction" target="_blank">Feature Extraction Framework</a>
+  <br><span style="font-weight:normal"><font size="3">Segment-wise & Window-wise feature extraction, for details check the article</font></span></li>
+  <li><a href="5_UsingExternalLibraries" target="_blank">Using Extranal Libraries</a>
+  <br><span style="font-weight:normal"><font size="3">Exract EEG, GSR, and PPG signals, process with other libraries or your own custum function and apply predictive modeling</font></span></li>
 
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-import phyaat as ph
-from sklearn import svm
-
-
-# to download dataset of subject 1 in given path 'dirpath'
-dirPath = ph.load_dataset(dirpath = '/phyaat/dataset/',subject=1)
-
-
-Subj1  = ph.read_data(dirPath, S=1)
-Subj1.filterEEG(band = [0.5],btype='highpass')
-Subj1.RemoveArtifact(method='ICA')
-X_train,y_train,X_test,y_test = SUbj1.getXy(feature='rhythmic',task=1,split='Sequential')
-
-means = X_train.mean(1)
-std = X_train.std(1)
-
-X_train = (X_train-means)/std
-X_test = (X_test-means)/std
+  <li><font size="3">With Wavelet Based artifact removal - <span style="font-weight:normal"><i>will be updated soon</i></span></font></li>
+  <li></li>
+  <li></li>
+</ul>
+</h3>
+</div>
 
 
+# Deeplearning and Temporal Models
+In this section, the exmples includes preditive modeling with convolutional and temporal models such as CNN, RNN and Bayesian Network
 
-clf = svm.SVC(kernel='rbf', C=1)
-
-clf.fit(X_train,y_train)
-
-ytp = clf.predict(X_train)
-ysp = clf.predict(X_test)
-
-print('Training Accuracy:',np.mean(y_train==ytp))
-print('Testing  Accuracy:',np.mean(y_test==ysp))
-
-```
-
-# Deeplearning Models
-
-## Convolutional Neural Network
-
-## Long-short Term Memory - RNN
+<div id="index-grid-half" class="section group">
+<h3 style="text-align:left;">
+<ul class="simple" style="line-height:1.4;">
+  <li><font size="3">Using 1D CNN - <span style="font-weight:normal"><i>will be updated later</i></span></font></li>
+  <li><font size="3">Using LSTM - <span style="font-weight:normal"><i>will be updated later</i></span></font></li>
+  <li></li>
+</ul>
+</h3>
+</div>
