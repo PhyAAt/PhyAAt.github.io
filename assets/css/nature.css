@@ -180,6 +180,17 @@ div.body img.right {
 }
 
 
+* {box-sizing: border-box;}
+.rowNik {
+  display: flex;
+}
+
+.columnNik {
+  flex: 49%;
+  padding: 5px;
+}
+
+
 }
     div.banner img {
         vertical-align: middle;

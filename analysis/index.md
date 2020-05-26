@@ -3,24 +3,23 @@ title: analysis
 layout: base
 ---
 
-  <div class="section" id="experiment">
-  <h1>Under construction<a class="headerlink" href="#experiment" title="Permalink to this headline">¶</a></h1>
-  <h2>3.1 Text response analysis- Statistical analysis<a class="headerlink" href="#institutions" title="Permalink to this headline">¶</a></h2>
-  <br>
-  <h2>3.2 Signal Analysis<a class="headerlink" href="#institutions" title="Permalink to this headline">¶</a></h2>
-  <ul class="simple">
-  <p><font size="4"><strong><a class="reference external" href="#">Spectral analysis</a></strong></font></p>
-  <p><font size="4"><strong><a class="reference external" href="#">Statistical analysis</a></strong></font></p>
-  </ul>
+# Analysis
 
-  <h2>3.3 Event Related Pontential analysis<a class="headerlink" href="#institutions" title="Permalink to this headline">¶</a></h2>
-  <br>
+## Text response analysis
+Statistical analysis of the text response was done in great detail. Article for findings is in a double blind peer review journal.
+Results will be updated after ccompletion of review process.
 
-  <!--<li><a class="reference external" href="http://nikeshbajaj.in">Nikesh Bajaj<img alt="Nikesh Bajaj" src="_images0/nikeshbajaj.png" width="100"></a></li> -->
-  <div class="section" id="institutions">
-  <h2>Under construction..<a class="headerlink" href="#institutions" title="Permalink to this headline">¶</a></h2>
-  <p>This ...:</p>
-  <a><img alt="Under construction" src="{{ "/assets/images/Underconstruction.png" | relative_url }}" width="300"></a>
-  </div>
+## Signal analysis - for feature engineering
+Signal Analysis of all the recorded signals will be updated here soon...
 
-  </div>
+### Spectral Analysis
+<img alt="Spectral Analysis" src="{{ "/assets/images/PSD.png" | relative_url }}" width="40%">
+<img alt="Spectral Analysis" src="{{ "/assets/images/Spectral_LWR_Algo.png" | relative_url }}" width="40%">
+<figcaption>Fig. 1:Spectral Analysis of LWR</figcaption>
+
+### Statistical analysis
+
+<img class="center" alt="Distribuation Analysis" src="{{ "/assets/images/PDF2.png" | relative_url }}" width="40%">
+<figcaption>Fig. 2: Ditribuation of signals</figcaption>
+
+### Event Related Pontential analysis

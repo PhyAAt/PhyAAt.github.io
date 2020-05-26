@@ -1,4 +1,4 @@
-{% include asciiart.html %}
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -103,22 +103,24 @@
           });
       })(jQuery);
       </script>
+
 </head>
 
 <body>
 {% include header.html %}
 
-{% include sidebar.html %}
-
 <div class="document">
+  {{ content }}
 <div class="documentwrapper">
 <div class="bodywrapper">
   <div class="body" role="main">
-      {{ content }}
+
   </div>
 </div>
-
-<div class="clearer"></div></div>
-  {% include footer.html %}
+<div class="clearer"></div>
+</div>
+</div>
+{% include footer.html %}
 </body>
+
 </html>

@@ -6,16 +6,16 @@ layout: base
 <div class="index-paragraph docutils container">
 <p>The dataset contains a collection of physiological signals (<strong>EEG, GSR, PPG</strong>) obtained from an experiment of <strong>the auditory attention on natural speech</strong>. From dataset, four predictive problems have been formulated. Python scripts are provided for preprocessing, visualizing, removing artifacts, predictive modelling and feature engineering.
 </p></div>
-
 <div id="index-grid" class="section group">
 <a class="reference external" href="experiment/index"><img alt="Experimental Model" src="{{ "/assets/images/ExperimentModel.png" | relative_url }}" width="100%"></a>
-<hr>
-
+<br/>
+<h1>...</h1>
+<br/>
 <div class="col span_1_of_4">
 <h3><a href="introduction.html">Getting started</a></h3><p>Start with dataset</p>
 <h3><a href="modeling/index"> Predictive modeling</a></h3><p>Start with example codes</p>
 <h3><a href="analysis/index"> Feature Engineering</a></h3><p>Feature Engineering</p>
-<h3><a href="modeling/index#deeplearning-models">Deep Learning</a></h3><p>Apply deeplearning</p>
+<h3><a href="modeling/index#deeplearning-and-temporal-models">Deep Learning</a></h3><p>Apply deeplearning</p>
 </div>
 
 <div class="col span_2_of_4">
