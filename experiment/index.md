@@ -19,7 +19,7 @@ The experiment is based on listening task, unlike diachotic listening task, each
 <img class="center" alt="Experimental Model" src="{{ "/assets/images/ExperimentModel.png" | relative_url }}" width="80%">
 <figcaption>Fig. 1: Experiment Design</figcaption>
 
-For computing the **"Auditory Attention Score (A)"**, following the literature, the number of correctly identetified words **Nc** ($$N_C$$) in the trasncriped audio message were counted and Attention Score **A = (Nc/Nt)x100** $$ A = \frac{N_C}{N_T}\times 100$$, computed where **Nt** $$N_T$$ is total words in the original audio message.
+For computing the **"Auditory Attention Score (A)"**, following the literature, the number of correctly identetified words $$N_C$$) in the trasncriped audio message were counted and Attention Score $$ A = \frac{N_C}{N_T}\times 100$$, computed where $$N_T$$ is total words in the original audio message.
 
 
 
@@ -33,14 +33,6 @@ As shown in Figure 2 below (in right), each trial consists of three tasks, liste
 
 ## Predictive tasks
 Following four preditive tasks are formulated. The details of formulation and respective justification is explained in the paper.
-
-* **T1: Attention Score Prediction** : A' = f(Fr)   $$ A^{\prime} = f_A(F_r)$$ <br>
-* **T2: Noise Level Prediction** : N' = f(Fr)   $$ N^{\prime} = f_N(F_r)$$   <br>
-* **T3: Semancity Prediction** : S' = f(Fr)   $$ S^{\prime} = f_S(F_r)$$    <br>
-* **T4: LWR Classification** : T' = f(Fr)    $$ T^{\prime} = f_T(F_r)$$     
-
-where Fr is feature vector extracted from Physiological Responses R: R -> Fr
-
 
 $$
 \begin{eqnarray}
