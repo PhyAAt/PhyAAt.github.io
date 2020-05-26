@@ -30,6 +30,23 @@ As shown in Figure 2 below (in right), each trial consists of three tasks, liste
 <img class=""  alt="Experimental Model" src="{{ "/assets/images/Expic.jpeg" | relative_url }}" width="50%"><img class="" alt="Experimental Model" src="{{ "/assets/images/ExTimeline.png" | relative_url }}" width="50%">
 <figcaption>Fig. 2: left: participant performing experiment, right: timeline of one trial.</figcaption>
 
+
+## Predictive tasks
+Following four preditive tasks are formulated. The details of formulation and respective justification is explained in the paper.
+
+$$
+\begin{eqnarray}
+\text{T1: Attention Score prediction} &:& A^{\prime} = f_A(F_r)\\
+\text{T2: Noise Level prediction} &:& N^{\prime} = f_N(F_r)\\
+\text{T3: Semanticity prediction} &:& S^{\prime} = f_S(F_r)\\
+\text{T4: LWR Classification} &:& \mathcal{T}^{\prime} = f_{\mathcal{T}}(F_r)
+\end{eqnarray}
+$$
+
+where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$R \rightarrow F_r$$
+
+
+
 ## Participents - demographics
 *will be uodated soon..*
 
