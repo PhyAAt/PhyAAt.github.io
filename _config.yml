@@ -12,3 +12,4 @@ navbar-links:
   Author's home: "http://nikeshbajaj.in"
 
 name: phyaat.github.io
+markdown: kramdown
