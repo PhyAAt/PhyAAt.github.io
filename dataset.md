@@ -63,7 +63,7 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwr
 **[CHECK THE STARTER GUIDE](/introduction)**
 
 **Manually**<br>
-If you are using other programming languages like matlab, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
+If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
 
 
 
