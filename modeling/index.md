@@ -12,7 +12,7 @@ layout: base
 <div id="index-grid-half" class="section group">
 <div class="sphx-glr-thumbcontainer" tooltip="Getting started">
   <div class="figure align-default" id="">
-  <img alt="" src="../assets/images/getting_started.png" />
+  <img alt="" src="figures/getting_started.png" />
   <p class="caption"><span class="caption-text"><a class="reference internal" href="../introduction"><b>Getting Started: Introduction</b><br>Installation, download data and extract segments and features for predictive analysis</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
   </div>
 </div>
