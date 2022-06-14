@@ -54,7 +54,7 @@ where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$
 
 
 ## Participents - demographics
-*will be uodated soon..*
+A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities with 11 different first languages, majority age group of 26-30 were chosen for the experiment.
 
 | Nationality | #Participants | | First language      | #Participants |
 | ----------- | ----------- | | ----------- | ----------- |
