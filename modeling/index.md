@@ -98,3 +98,9 @@ In this section, the exmples includes preditive modeling with convolutional and 
 </ul>
 </h3>
 </div>
+
+
+## Contribute and record your results
+Everyone is invited to use the dataset and build better models. You can record your performance metric on leaderboard at **PaperwithCode** here **[https://paperswithcode.com/dataset/phyaat](https://paperswithcode.com/dataset/phyaat)**
+
+Additionally, you could also upload your code on cloud, to reproduce the results and once you do that, you could send us the link to your code and we will add your predictive model in above collections. In order to do that, make sure, your code is self-contained (includes all the dependencies and libraries) and easy to execute.
