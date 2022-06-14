@@ -12,9 +12,11 @@ layout: base
 The experiment for recording the physiological signals for auditory attention is based on widely used experimental setting in cognitive psychology - diachotic listening task. Here we will provide a very high level explaination of the experiment, for details please refere to the article here <a href="https://arxiv.org/pdf/2005.11577.pdf" target="_blank"> <i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a>. Three physiological signals (<strong>EEG, GSR, PPG</strong>) were recorded from 25 healthy subjects, while conduting the experiment. The collected dataset is carefully labeled and four predictive tasks are formulated. Estimating <strong>Auditory Attention level</strong> from physiological signals is one of them.
 </div>
 
-<div class="index-paragraph docutils container">
+## Ethical Approval
+<!--<div class="index-paragraph docutils container"> -->
 <p><strong>Ethical Approval:</strong> The ethical approval for conducting experiment with human, was taken from Queen Mary Ethics of Research Committee, of Queen Mary University of London. All the participants also signed a consent form to record and use the data for research purpose.
-</p></div>
+</p>
+<!--</div> -->
 
 ## Experiment Design
 <div style="text-align: justify"></div>
@@ -53,6 +55,30 @@ where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$
 
 ## Participents - demographics
 *will be uodated soon..*
+
+| Nationality | #Participants | | First language      | #Participants |
+| ----------- | ----------- | | ----------- | ----------- |
+| Algerian | 1 | | Arabic | 7|
+| Indian   | 8 | | Farsi  | 3|
+| Iranian  | 3 | | Italian| 4|
+| Italian| | 4 | | Kannada| 1|
+| Kazakh|  | 1 | | Kazakh | 1|
+| Lebanese | 4 | | Mathili| 1|
+| Moroccan | 1 | | Malayalam| 4|
+| Nepalese | 1 | | Marathi| 1|
+| Pakistani| 1 | | Tamil  | 1|
+| Tunisian | 1 | | Telgu  | 1|
+|          |   | | Urdu   | 1|
+
+
+| Sex | #Participants | | Age Group      | #Participants |
+| ----------- | ----------- | | ----------- | ----------- |
+| Male  | 21 | | 16-20* | 1|  
+| Femal | 4  | | 21-25  | 6|
+|       |    | | 26-30  | 16|
+|       |    | | 31-35  | 2|
+
+*Age of >=18, no parents conset was  required
 
 ## Collected Dataset
 For details about collected dataset - please see [**here**](/dataset)
