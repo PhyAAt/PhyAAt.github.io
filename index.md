@@ -38,9 +38,9 @@ layout: base
 </div>
 </div>
 
-<div style="clear: center">
+<div style="clear: center"></div>
+<div class="toctree-wrapper compound"></div>
+
 <div class="index-paragraph docutils container">
 <p><strong>Ethical Approval:</strong> The ethical approval for conducting experiment with human, was taken from Queen Mary Ethics of Research Committee, of Queen Mary University of London. All the participants also signed a consent form to record and use the data for research purpose.
 </p></div>
-</div>
-<div class="toctree-wrapper compound"></div>
