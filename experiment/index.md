@@ -12,6 +12,10 @@ layout: base
 The experiment for recording the physiological signals for auditory attention is based on widely used experimental setting in cognitive psychology - diachotic listening task. Here we will provide a very high level explaination of the experiment, for details please refere to the article here <a href="https://arxiv.org/pdf/2005.11577.pdf" target="_blank"> <i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a>. Three physiological signals (<strong>EEG, GSR, PPG</strong>) were recorded from 25 healthy subjects, while conduting the experiment. The collected dataset is carefully labeled and four predictive tasks are formulated. Estimating <strong>Auditory Attention level</strong> from physiological signals is one of them.
 </div>
 
+<div class="index-paragraph docutils container">
+<p><strong>Ethical Approval:</strong> The ethical approval for conducting experiment with human, was taken from Queen Mary Ethics of Research Committee, of Queen Mary University of London. All the participants also signed a consent form to record and use the data for research purpose.
+</p></div>
+
 ## Experiment Design
 <div style="text-align: justify"></div>
 The experiment is based on listening task, unlike diachotic listening task, each subject was presented only one auditory stimulus under different auditory conditions for 1 trial. As shown in Figure 1. The auditory conditions include different level of background noise (**N**), Sementicity (**S**) and length (**L**) of audio stimulus. Each subject was presented with 144 stimuli, one per trial, with no repeatition of audio message. The order of stimuli with different auditory conditions were randomized. The physiological signals (**R**) were recorded at sampling rate of 128 Hz.
