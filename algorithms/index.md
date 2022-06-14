@@ -31,9 +31,18 @@ Soon will be integrated to phyaat library.
 <h2> ICA Based algorithms</h2>
 ### From other articles
 <strong>Python implementation </strong> of ICA based algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
-  * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank">Jupyter Notebook</a>
+  
+ * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank">Jupyter Notebook</a>
 
 
 <h2>Wavelet based other approachs</h2>
 <br>
+
+ **Wavelet Filtering** can be used to remove the artifact and clean the signal. <strong>Python implementation </strong> of wavelet filtering is available on <strong>Spkit</strong> library, the examples of which can be found here 
+
+  * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/Wavelet_Filtering_1_demo.ipynb" target="_blank">Jupyter Notebook</a>
+ 
+ 
+ 
+ 
 <!--<li><a class="reference external" href="http://nikeshbajaj.in">Nikesh Bajaj<img alt="Nikesh Bajaj" src="_images0/nikeshbajaj.png" width="100"></a></li> -->
