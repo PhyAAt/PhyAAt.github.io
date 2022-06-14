@@ -12,15 +12,17 @@ layout: base
 <figure>
 <img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="30%">
 <img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="30%">
-<img style="float: left;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="30%">
+<img style="float: left;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="50%">
 </figure>
-
-
-
-
 <img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="40%">
 
 
+<strong>Python implementation </strong> of ATAR Algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
+  * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank">Jupyter Notebook</a>
+  * <a href="https://spkit.github.io/guide/notebooks/ATAR_Algorithm_EEG_Artifact_Removal.html" target="_blank">HTML Friendly</a>
+  * <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank">Binder</a>
+  
+Soon will be integrated to phyaat library.
 
 
 <!--<a><img alt="Under construction" src="../_images0/IPR.gif" width="300"></a>-->
@@ -28,6 +30,9 @@ layout: base
 
 <h2> ICA Based algorithms</h2>
 ### From other articles
+<strong>Python implementation </strong> of ICA based algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
+  * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank">Jupyter Notebook</a>
+
 
 <h2>Wavelet based other approachs</h2>
 <br>
