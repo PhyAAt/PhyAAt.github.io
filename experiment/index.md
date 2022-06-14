@@ -61,8 +61,8 @@ where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$
 | Algerian | 1 | | Arabic | 7|
 | Indian   | 8 | | Farsi  | 3|
 | Iranian  | 3 | | Italian| 4|
-| Italian| | 4 | | Kannada| 1|
-| Kazakh|  | 1 | | Kazakh | 1|
+| Italian  | 4 | | Kannada| 1|
+| Kazakh   | 1 | | Kazakh | 1|
 | Lebanese | 4 | | Mathili| 1|
 | Moroccan | 1 | | Malayalam| 4|
 | Nepalese | 1 | | Marathi| 1|
