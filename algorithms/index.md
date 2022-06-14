@@ -28,8 +28,8 @@ layout: base
  
 <ul class="simple">
   <li>* <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank"><strong>Jupyter Notebook </strong></a></li>
-  <li>* <a href="https://spkit.github.io/guide/notebooks/ATAR_Algorithm_EEG_Artifact_Removal.html" target="_blank">HTML Friendly</a></li>
-  <li>* <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank">Binder</a></li>
+  <li>* <a href="https://spkit.github.io/guide/notebooks/ATAR_Algorithm_EEG_Artifact_Removal.html" target="_blank"><strong>HTML Friendly</strong></a></li>
+  <li>* <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank"><strong>Binder</strong></a></li>
 </ul>
 Soon will be integrated to phyaat library.
 
@@ -38,21 +38,18 @@ Soon will be integrated to phyaat library.
 <!--<h3 style="background-color: #EBF5FB">ICA based Artifact removal approach<a class="headerlink" href="#institutions" title="Permalink to this headline"></a></h3> -->
 
 <h2> ICA Based algorithms</h2>
-### From other articles
 <strong>Python implementation </strong> of ICA based algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
 <ul class="simple">
-<li> * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Jupyter Notebook </strong></a>
-</li>
+<li> * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Jupyter Notebook </strong></a></li>
+<li> * <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Binder </strong></a></li>
 </ul>
 
 <h2>Wavelet based other approachs</h2>
-<br>
-
- **Wavelet Filtering** can be used to remove the artifact and clean the signal. <strong>Python implementation </strong> of wavelet filtering is available on <strong>Spkit</strong> library, the examples of which can be found here 
+<strong>Wavelet Filtering</strong> can be used to remove the artifact and clean the signal. <strong>Python implementation </strong> of wavelet filtering is available on <strong>Spkit</strong> library, the examples of which can be found here 
 <ul class="simple">
-<li> 
-  * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/Wavelet_Filtering_1_demo.ipynb" target="_blank"><strong>Jupyter Notebook </strong></a>
- </li>
+<li>* <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/Wavelet_Filtering_1_demo.ipynb" target="_blank"><strong>Jupyter Notebook </strong></a> </li>
+<li>* <a href="https://spkit.github.io/guide/notebooks/Wavelet_Filtering_1_demo.html" target="_blank"><strong>HTML Friendly</strong></a> </li>
+<li>* <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/Wavelet_Filtering_1_demo.ipynb" target="_blank"><strong>Binder</strong></a> </li>
 </ul>
  
  
