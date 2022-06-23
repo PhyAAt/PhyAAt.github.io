@@ -95,13 +95,14 @@ In this section, the exmples includes preditive modeling with convolutional and 
 
   <div class="sphx-glr-thumbcontainer" tooltip="Getting started">
   <div class="figure align-default" id="">
-  <img alt="" src="figures/getting_started.png" />
-  <p class="caption"><span class="caption-text"><a class="reference internal" href="../introduction"><b>Getting Started: Introduction</b><br>Installation, download data and extract segments and features for predictive analysis</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
+  <img alt="" src="figures/EEG_to_SSFI.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="https://spkit.github.io/examples/gen_topo" target="_blank"><b>EEG to Image (SSFI)</b><br>COnverting EEG Data to Spatio-Spectral Feature Image</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
   </div>
 </div>
 </div>
 
-
+<br>
+<hr>
 
 <div id="index-grid-half" class="section group">
 <h3 style="text-align:left;">
