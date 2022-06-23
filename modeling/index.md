@@ -99,14 +99,8 @@ In this section, the exmples includes preditive modeling with convolutional and 
   <li></li>
 </ul>
 </h3>
-  
-<div class="sphx-glr-thumbcontainer" tooltip="Deep Representation using SSFI"><div class="figure align-default" id="id3">
-  <img alt="" src="figures/CNN_model.png"/>
-  <p class="caption"><span class="caption-text"><a class="reference internal" href="https://arxiv.org/pdf/2206.09807.pdf"><b>Deep Representation fo EEG</a></span></p>
-  </div>
-  </div> 
+</div>
 
-<br>
 
 
 ## Contribute and record your results
