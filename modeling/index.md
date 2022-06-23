@@ -75,7 +75,7 @@ layout: base
 
 
 <br>
-
+<hr>
 
 <h3 style="text-align:left;">
 <ul class="simple" style="line-height:1.4;">
