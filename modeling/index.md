@@ -105,7 +105,9 @@ In this section, the exmples includes preditive modeling with convolutional and 
   <p class="caption"><span class="caption-text"><a class="reference internal" href="https://arxiv.org/pdf/2206.09807.pdf"><b>Deep Representation fo EEG</a></span></p>
   </div>
   </div> 
-</div>
+
+<br>
+
 
 ## Contribute and record your results
 Everyone is invited to use the dataset and build better models. You can record your performance metric on leaderboard at **PaperwithCode** here **[https://paperswithcode.com/dataset/phyaat](https://paperswithcode.com/dataset/phyaat)**
