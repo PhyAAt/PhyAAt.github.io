@@ -89,6 +89,7 @@ layout: base
 # Deeplearning and Temporal Models
 In this section, the exmples includes preditive modeling with convolutional and temporal models such as CNN, RNN and Bayesian Network
 
+
 <div id="index-grid-half" class="section group">
 <h3 style="text-align:left;">
 <ul class="simple" style="line-height:1.4;">
@@ -99,14 +100,14 @@ In this section, the exmples includes preditive modeling with convolutional and 
 </h3>
 </div>
 
-
+<div id="index-grid-half" class="section group">
 <div class="sphx-glr-thumbcontainer" tooltip="Deep Representation using SSFI"><div class="figure align-default" id="id3">
   <img alt="" src="assets/images/CNN_model.png" />
   <p class="caption"><span class="caption-text"><a class="reference internal" href="https://arxiv.org/pdf/2206.09807.pdf"><b>Deep Representation fo EEG</a></span></p>
   </div>
 </div>
-
 <div class="toctree-wrapper compound"></div>
+</div>
 
 
 ## Contribute and record your results
