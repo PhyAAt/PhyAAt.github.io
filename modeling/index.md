@@ -93,12 +93,20 @@ In this section, the exmples includes preditive modeling with convolutional and 
 
 <div id="index-grid-half" class="section group">
 
-  <div class="sphx-glr-thumbcontainer" tooltip="Getting started">
-  <div class="figure align-default" id="">
+<div class="sphx-glr-thumbcontainer" tooltip="EEG to Image">
+<div class="figure align-default" id="">
   <img alt="" src="figures/EEG_to_SSFI.png" />
-  <p class="caption"><span class="caption-text"><a class="reference internal" href="https://spkit.github.io/examples/gen_topo" target="_blank"><b>EEG to Image (SSFI)</b><br>COnverting EEG Data to Spatio-Spectral Feature Image</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
-  </div>
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="https://spkit.github.io/examples/gen_topo" target="_blank"><b>EEG to Image (SSFI) </b><br>Converting EEG Data to Spatio-Spectral Feature Image</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+  
+<div class="sphx-glr-thumbcontainer" tooltip="Deep Representation">
+<div class="figure align-default" id="">
+  <img alt="" src="figures/DeepRepre_EEG_1.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="https://arxiv.org/pdf/2206.09807.pdf" target="_blank"><b>Deep Representation of EEG using SSFI </b><br>SSFI: Spatio-Spectral Feature Image and CNN</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+
 </div>
 
 <br>
