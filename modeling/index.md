@@ -72,11 +72,7 @@ layout: base
 
 
 <div class="toctree-wrapper compound"></div>
-
-
 <br>
-<hr>
-
 <h3 style="text-align:left;">
 <ul class="simple" style="line-height:1.4;">
   <li><font size="3">With Wavelet Based artifact removal - <span style="font-weight:normal"><i>will be updated soon</i></span></font></li>
