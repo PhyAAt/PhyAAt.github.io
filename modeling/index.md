@@ -99,20 +99,13 @@ In this section, the exmples includes preditive modeling with convolutional and 
   <li></li>
 </ul>
 </h3>
-</div>
-
-<div id="index-grid-half" class="section group">
-<div class="sphx-glr-thumbcontainer" tooltip="Deep Representation using SSFI">
-<div class="figure align-default" id="id3">
-  <img alt="" src="assets/images/CNN_model.png" />
+  
+<div class="sphx-glr-thumbcontainer" tooltip="Deep Representation using SSFI"><div class="figure align-default" id="id3">
+  <img alt="" src="figures/CNN_model.png"/>
   <p class="caption"><span class="caption-text"><a class="reference internal" href="https://arxiv.org/pdf/2206.09807.pdf"><b>Deep Representation fo EEG</a></span></p>
   </div>
   </div> 
-<div class="toctree-wrapper compound"></div>
 </div>
-
-<br>
-<hr>
 
 ## Contribute and record your results
 Everyone is invited to use the dataset and build better models. You can record your performance metric on leaderboard at **PaperwithCode** here **[https://paperswithcode.com/dataset/phyaat](https://paperswithcode.com/dataset/phyaat)**
