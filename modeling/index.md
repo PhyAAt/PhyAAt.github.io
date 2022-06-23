@@ -101,6 +101,16 @@ In this section, the exmples includes preditive modeling with convolutional and 
 </h3>
 </div>
 
+<div id="index-grid-half" class="section group">
+<h3 style="text-align:left;">
+<ul class="simple" style="line-height:1.4;">
+  <li><font size="3">Using 1D CNN - <span style="font-weight:normal"><i>will be updated later</i></span></font></li>
+  <li><font size="3">Using LSTM - <span style="font-weight:normal"><i>will be updated later</i></span></font></li>
+  <li></li>
+</ul>
+</h3>
+</div>
+
 
 
 ## Contribute and record your results
