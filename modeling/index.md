@@ -92,6 +92,18 @@ In this section, the exmples includes preditive modeling with convolutional and 
 
 
 <div id="index-grid-half" class="section group">
+
+  <div class="sphx-glr-thumbcontainer" tooltip="Getting started">
+  <div class="figure align-default" id="">
+  <img alt="" src="figures/getting_started.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="../introduction"><b>Getting Started: Introduction</b><br>Installation, download data and extract segments and features for predictive analysis</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
+  </div>
+</div>
+</div>
+
+
+
+<div id="index-grid-half" class="section group">
 <h3 style="text-align:left;">
 <ul class="simple" style="line-height:1.4;">
   <li><font size="3">Using 1D CNN - <span style="font-weight:normal"><i>will be updated later</i></span></font></li>
@@ -101,17 +113,7 @@ In this section, the exmples includes preditive modeling with convolutional and 
 </h3>
 </div>
 
-<div id="index-grid-half" class="section group">
 
-  <div class="sphx-glr-thumbcontainer" tooltip="Getting started">
-  <div class="figure align-default" id="">
-  <img alt="" src="figures/getting_started.png" />
-  <p class="caption"><span class="caption-text"><a class="reference internal" href="../introduction"><b>Getting Started: Introduction</b><br>Installation, download data and extract segments and features for predictive analysis</a></span><a class="headerlink" href="#" title="Permalink to this image">¶</a></p>
-  </div>
-</div>
-  
-  
-</div>
 
 
 
