@@ -2,13 +2,12 @@
 title: Preditive Modeling | Artifact Removal with ATAR
 layout: base
 ---
-# Semanticity Classification with EEG Artifact Removal with ATAR and Tuning
+# Semanticity Classification with 
+## EEG Artifact Removal with ATAR and Tuning
 
 In this notebook, we demonstrate, how to apply ATAR algorithm built in spkit, whcih is combined with phyaat library now. The objective of including ATAR with phyaat is to make an easy to apply on phyaat dataset to quickly built a model for prediction task
 
-We will only focus on one task and demonstrate the tuning part of ATAR and how that improve the performance.
-
-In this notebook, we explain to download the dataset and getting started with all the predictive tasks using Support Vector Machine. We will be extracting spectral features, specifically 6 rhythmic features - total power in 6 frequency bands, namely, Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-14 Hz), Beta (14-30 Hz), Low Gamma (30-47 Hz), and High Gamma (47-64 Hz). For preprocessing, we filter EEG first with 0.5 Hz highpass and then remove Artifact with ICA based approach. 
+We will only focus on one task - semanticity Classification and demonstrate the tuning part of ATAR and how that improve the performance. We will be extracting same spectral features that we have been using in other notebooks and examples, specifically 6 rhythmic features - total power in 6 frequency bands, namely, Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-14 Hz), Beta (14-30 Hz), Low Gamma (30-47 Hz), and High Gamma (47-64 Hz). For preprocessing, we filter EEG first with 0.5 Hz highpass and 24 Hz lowpass filter then remove Artifact with ATAR based approach. 
 
 
 ![png](figures/atar_7_12.png)
@@ -423,7 +422,9 @@ PM1 = np.array(PM1)
 ```
 
 !==================================================
+
 BETA =  0.01
+
 !==================================================
 WPD Artifact Removal
 WPD: True  Wavelet: db3 , Method: ipr , OptMode: soft
@@ -459,7 +460,9 @@ Logloss
 
 
 !==================================================
+
 !==================================================
+
 BETA =  0.1
 !==================================================
 WPD Artifact Removal
