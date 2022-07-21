@@ -11,14 +11,14 @@ In this notebook, we demonstrate, how we can extract Rhythmic features from EEG 
 
 We will be again focusing on a single task again - Semanticity Classification, though, we will not go into prediction models
 
+<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example8_Custom_Freq_Bands.ipynb.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
+
 <h1>Table of Contents<span class="tocSkip"></span></h1>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Download-and-Load-a-subject's-data" data-toc-modified-id="Download-and-Load-a-subject's-data-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Download and Load a subject's data</a></span></li><li><span><a href="#Pre-processing:-high-pass-&amp;-ATAR" data-toc-modified-id="Pre-processing:-high-pass-&amp;-ATAR-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Pre-processing: high-pass &amp; ATAR</a></span></li><li><span><a href="#T3-Task:-Semanticity-Prediction" data-toc-modified-id="T3-Task:-Semanticity-Prediction-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>T3 Task: Semanticity Prediction</a></span></li><li><span><a href="#Feature-Extraction" data-toc-modified-id="Feature-Extraction-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Feature Extraction</a></span><ul class="toc-item"><li><span><a href="#Extract-default-power-of-6-freq-bands-and-flat-as-1D-vector-(default-setting)" data-toc-modified-id="Extract-default-power-of-6-freq-bands-and-flat-as-1D-vector-(default-setting)-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Extract default power of 6-freq bands and flat as 1D vector (default setting)</a></span></li><li><span><a href="#No-flattening---2D-Tensor" data-toc-modified-id="No-flattening---2D-Tensor-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>No-flattening - 2D-Tensor</a></span></li><li><span><a href="#No-log10+1" data-toc-modified-id="No-log10+1-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>No log10+1</a></span></li><li><span><a href="#Spatial-normalization-(For-each-band-normalize-over-channels)" data-toc-modified-id="Spatial-normalization-(For-each-band-normalize-over-channels)-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Spatial normalization (For each band normalize over channels)</a></span></li></ul></li><li><span><a href="#Custom-Frequency-Bands" data-toc-modified-id="Custom-Frequency-Bands-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Custom Frequency Bands</a></span></li>
-<li>
-<span><a href="#More-than-Sum-of-Power" data-toc-modified-id="More-than-Sum-of-Power-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>More than Sum of Power</a></span></li></ul>
-<li>
-<span><a href="#Documentation" data-toc-modified-id="Documentation-7"><span class="toc-item-num">6&nbsp;&nbsp;</span>Documentation</a></span></li></ul>
+<li><span><a href="#More-than-Sum-of-Power" data-toc-modified-id="More-than-Sum-of-Power-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>More than Sum of Power</a></span></li><li><span><a href="#Documentation" data-toc-modified-id="Documentation-7"><span class="toc-item-num">6&nbsp;&nbsp;</span>Documentation</a></span></li></ul>
 </div>
 
+<p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example8_Custom_Freq_Bands.ipynb.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
 ```python
 import numpy as np
