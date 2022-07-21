@@ -69,6 +69,30 @@ layout: base
   <p class="caption"><span class="caption-text"><a class="reference internal" href="6_Modeling_with_DecisionTree"><b>Using Decision Tree to analyse</b> Applying decision tree to identify the important predictor from spectral features</a></span></p>
   </div>
 </div>
+  
+<div class="toctree-wrapper compound"></div>
+
+<div class="sphx-glr-thumbcontainer" tooltip="ATAR Algorithm"><div class="figure align-default" id="id3">
+  <img alt="" src="figures/decision_tree_lwr.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="7_Artifact_Removal_ATAR"><b>Improve performance by using ATAR</b> ATAR from spkit in phyaat to remove EEG Artifacts</a></span></p>
+  </div>
+</div>
+  
+<div class="toctree-wrapper compound"></div>
+
+<div class="sphx-glr-thumbcontainer" tooltip="Custom Frequecy Bands"><div class="figure align-default" id="id3">
+  <img alt="" src="figures/decision_tree_lwr.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="8_Custom_Freq_Bands"><b>EEG Features with custom frequency bands</b></a></span></p>
+  </div>
+</div>
+  
+<div class="toctree-wrapper compound"></div>
+
+<div class="sphx-glr-thumbcontainer" tooltip="Temporal Features - window-wise"><div class="figure align-default" id="id3">
+  <img alt="" src="figures/decision_tree_lwr.png" />
+  <p class="caption"><span class="caption-text"><a class="reference internal" href="9_Temporal_Features"><b>Temporal Features with window-wise approach</b> can be used with RNN/LSTM/Baysian Network</a></span></p>
+  </div>
+</div>
 
 
 <div class="toctree-wrapper compound"></div>
