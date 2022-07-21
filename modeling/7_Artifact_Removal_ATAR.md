@@ -2,14 +2,16 @@
 title: Preditive Modeling | Artifact Removal with ATAR
 layout: base
 ---
-
-# EEG Artifact Removal with ATAR
+# Semanticity Classification with EEG Artifact Removal with ATAR and Tuning
 
 In this notebook, we demonstrate, how to apply ATAR algorithm built in spkit, whcih is combined with phyaat library now. The objective of including ATAR with phyaat is to make an easy to apply on phyaat dataset to quickly built a model for prediction task
 
 We will only focus on one task and demonstrate the tuning part of ATAR and how that improve the performance.
 
 In this notebook, we explain to download the dataset and getting started with all the predictive tasks using Support Vector Machine. We will be extracting spectral features, specifically 6 rhythmic features - total power in 6 frequency bands, namely, Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-14 Hz), Beta (14-30 Hz), Low Gamma (30-47 Hz), and High Gamma (47-64 Hz). For preprocessing, we filter EEG first with 0.5 Hz highpass and then remove Artifact with ICA based approach. 
+
+
+![png](figures/atar_7_12.png)
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Download-and-Load-a-subject" data-toc-modified-id="Download-and-Load-a-subject-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Download and Load a subject</a></span></li><li><span><a href="#Highpass-and-lowpass-filtering" data-toc-modified-id="Highpass-and-lowpass-filtering-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Highpass and lowpass filtering</a></span></li><li><span><a href="#ATAR-Algorithm" data-toc-modified-id="ATAR-Algorithm-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>ATAR Algorithm</a></span></li><li><span><a href="#T3-Task:-Semanticity-Prediction" data-toc-modified-id="T3-Task:-Semanticity-Prediction-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>T3 Task: Semanticity Prediction</a></span><ul class="toc-item"><li><span><a href="#Feature-Extraction---Rhythmic-Features" data-toc-modified-id="Feature-Extraction---Rhythmic-Features-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Feature Extraction - Rhythmic Features</a></span></li><li><span><a href="#Predictive-Modeling-with-Decision-Tree" data-toc-modified-id="Predictive-Modeling-with-Decision-Tree-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Predictive Modeling with Decision Tree</a></span></li></ul></li><li><span><a href="#Tuning-ATAR" data-toc-modified-id="Tuning-ATAR-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tuning ATAR</a></span><ul class="toc-item"><li><span><a href="#Soft-thresholding" data-toc-modified-id="Soft-thresholding-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Soft-thresholding</a></span></li><li><span><a href="#Elimination-mode" data-toc-modified-id="Elimination-mode-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Elimination mode</a></span></li></ul></li></ul></div>
@@ -411,9 +413,9 @@ for beta in [0.01, 0.1,0.2, 0.3, 0.5, 0.7]:
 PM1 = np.array(PM1)
 ```
 
-==================================================
+!==================================================
 BETA =  0.01
-==================================================
+!==================================================
 WPD Artifact Removal
 WPD: True  Wavelet: db3 , Method: ipr , OptMode: soft
 IPR= [25, 75] , Beta: 0.01 , [k1,k2]= [10, 100]
@@ -447,10 +449,10 @@ Logloss
 ![png](figures/atar_7_7.png)
 
 
-==================================================
-==================================================
+!==================================================
+!==================================================
 BETA =  0.1
-==================================================
+!==================================================
 WPD Artifact Removal
 WPD: True  Wavelet: db3 , Method: ipr , OptMode: soft
 IPR= [25, 75] , Beta: 0.1 , [k1,k2]= [10, 100]
@@ -460,7 +462,7 @@ Reconstruction Method: custom , Window: ['hamming', True] , (Win,Overlap)= (640,
 
 
     
-![png](atar_7_8.png)
+![png](figures/atar_7_8.png)
     
 
 
@@ -487,14 +489,14 @@ Logloss
 
 
     
-![png](atar_7_9.png)
+![png](figures/atar_7_9.png)
     
 
 
-==================================================
-==================================================
+!==================================================
+!==================================================
 BETA =  0.2
-==================================================
+!==================================================
 WPD Artifact Removal
 WPD: True  Wavelet: db3 , Method: ipr , OptMode: soft
 IPR= [25, 75] , Beta: 0.2 , [k1,k2]= [10, 100]
@@ -502,7 +504,7 @@ Reconstruction Method: custom , Window: ['hamming', True] , (Win,Overlap)= (640,
     
     
 
-![png](atar_7_10.png)
+![png](figures/atar_7_10.png)
     
 
 
@@ -527,18 +529,32 @@ Logloss
 - Testing  :  5.221099864589396
     
 
-![png](atar_7_11.png)
+![png](figures/atar_7_11.png)
     
 
 
-==================================================
-==================================================
+!==================================================
+!==================================================
 BETA =  0.3
-==================================================
+!==================================================
 WPD Artifact Removal
 WPD: True  Wavelet: db3 , Method: ipr , OptMode: soft
 IPR= [25, 75] , Beta: 0.3 , [k1,k2]= [10, 100]
 Reconstruction Method: custom , Window: ['hamming', True] , (Win,Overlap)= (640, 320)
+
+
+
+
+```python
+plt.plot(PM1[:,0],PM1[:,1],label='Training')
+plt.plot(PM1[:,0],PM1[:,2],label='Testing')
+plt.xlabel(r'$\beta$')
+plt.ylabel('accuracy')
+plt.title('Soft-Thresholding')
+plt.legend()
+plt.show()
+```
+![png](figures/atar_7_12.png)
 
 
 ### Elimination mode
