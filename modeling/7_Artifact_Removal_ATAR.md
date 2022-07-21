@@ -5,16 +5,18 @@ layout: base
 # Semanticity Classification with 
 # EEG Artifact Removal with ATAR and Tuning
 
+<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
+
 In this notebook, we demonstrate, how to apply ATAR algorithm built in spkit, whcih is combined with phyaat library now. The objective of including ATAR with phyaat is to make an easy to apply on phyaat dataset to quickly built a model for prediction task
 
 We will only focus on one task - semanticity Classification and demonstrate the tuning part of ATAR and how that improve the performance. We will be extracting same spectral features that we have been using in other notebooks and examples, specifically 6 rhythmic features - total power in 6 frequency bands, namely, Delta (0.5-4 Hz), Theta (4-8 Hz), Alpha (8-14 Hz), Beta (14-30 Hz), Low Gamma (30-47 Hz), and High Gamma (47-64 Hz). For preprocessing, we filter EEG first with 0.5 Hz highpass and 24 Hz lowpass filter then remove Artifact with ATAR based approach. 
 
 
-![png](figures/atar_7_12.png)
+![png](figures/atar_7_13.png)
+![png](figures/atar_7_14.png)
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
-<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
 
 <!--
 .. image:: https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg
