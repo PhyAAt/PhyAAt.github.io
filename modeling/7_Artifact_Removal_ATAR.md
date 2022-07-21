@@ -14,7 +14,7 @@ We will only focus on one task - semanticity Classification and demonstrate the 
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
-<p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
+<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
 
 <!--
 .. image:: https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg
