@@ -1,1 +1,1 @@
-# Custom Frequncy Bands for Feature extraction
+# Custom Frequency Bands for Feature extraction
