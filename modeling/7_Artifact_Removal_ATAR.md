@@ -13,6 +13,15 @@ In this notebook, we explain to download the dataset and getting started with al
 
 ![png](figures/atar_7_12.png)
 
+<p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
+
+.. image:: https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg
+    :width: 200
+    :align: right
+    :target: https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example7_Artifact_Removal_ATAR.ipynb
+
+
+
 <h1>Table of Contents<span class="tocSkip"></span></h1>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Download-and-Load-a-subject" data-toc-modified-id="Download-and-Load-a-subject-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Download and Load a subject</a></span></li><li><span><a href="#Highpass-and-lowpass-filtering" data-toc-modified-id="Highpass-and-lowpass-filtering-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Highpass and lowpass filtering</a></span></li><li><span><a href="#ATAR-Algorithm" data-toc-modified-id="ATAR-Algorithm-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>ATAR Algorithm</a></span></li><li><span><a href="#T3-Task:-Semanticity-Prediction" data-toc-modified-id="T3-Task:-Semanticity-Prediction-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>T3 Task: Semanticity Prediction</a></span><ul class="toc-item"><li><span><a href="#Feature-Extraction---Rhythmic-Features" data-toc-modified-id="Feature-Extraction---Rhythmic-Features-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Feature Extraction - Rhythmic Features</a></span></li><li><span><a href="#Predictive-Modeling-with-Decision-Tree" data-toc-modified-id="Predictive-Modeling-with-Decision-Tree-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Predictive Modeling with Decision Tree</a></span></li></ul></li><li><span><a href="#Tuning-ATAR" data-toc-modified-id="Tuning-ATAR-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tuning ATAR</a></span><ul class="toc-item"><li><span><a href="#Soft-thresholding" data-toc-modified-id="Soft-thresholding-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Soft-thresholding</a></span></li><li><span><a href="#Elimination-mode" data-toc-modified-id="Elimination-mode-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Elimination mode</a></span></li></ul></li></ul></div>
 
