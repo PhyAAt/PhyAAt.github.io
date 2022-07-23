@@ -11,7 +11,7 @@ In this notebook, we demonstrate, how we can extract Rhythmic features from EEG 
 
 We will be again focusing on a single task again - Semanticity Classification, though, we will not go into prediction models
 
-<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://github.com/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example8_Custom_Freq_Bands.ipynb.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
+<p style="text-align:right; font-weight:bold;"><br><a class="reference external image-reference" href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/PhyAAt_Notebooks/Example8_Custom_Freq_Bands.ipynb" target="_blank"><img src="https://raw.githubusercontent.com/spkit/spkit.github.io/master/assets/images/nav_logo.svg" width="150px"></a></p>
 
 ![png](figures/FE_8_2.png)
 ![png](figures/FE_8_3.png)   
