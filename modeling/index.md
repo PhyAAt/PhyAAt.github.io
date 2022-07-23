@@ -81,7 +81,7 @@ layout: base
 <div class="toctree-wrapper compound"></div>
 
 <div class="sphx-glr-thumbcontainer" tooltip="Custom Frequecy Bands"><div class="figure align-default" id="id3">
-  <img alt="" src="figures/phyaat_l2.png" />
+  <img alt="" src="figures/FE_8_10.png" />
   <p class="caption"><span class="caption-text"><a class="reference internal" href="8_Custom_Freq_Bands"><b>EEG Features with custom frequency bands</b></a></span></p>
   </div>
 </div>
