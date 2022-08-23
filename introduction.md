@@ -122,7 +122,7 @@ help(ph.Subject.correct)
 
 **Tune the parameters of ATAR algorithm**: Mostly, we tune beta,
 
-* **[Check tuning](https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb)**
+* **[Check jupyter-notebook on tuning parameters](https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb)**
 
 
 ```python
