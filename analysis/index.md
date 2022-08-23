@@ -11,12 +11,12 @@ Statistical analysis of the text response was done in great detail. Article for 
 	[PDF](https://academic-publishing.org/index.php/ejel/article/view/2296)
   
 **Interaction between Noise and Semanticity over Attention Score.**  
-<img alt="Spectral Analysis" src="{{ "figures/NvsSem_3.png" | relative_url }}" width="40%">
-<img alt="Spectral Analysis" src="{{ "figures/NvsL_3.png" | relative_url }}" width="40%">
+<img alt="Spectral Analysis" src="{{ "analysis/figures/NvsSem_3.png" | relative_url }}" width="40%">
+<img alt="Spectral Analysis" src="{{ "analysis/figures/NvsL_3.png" | relative_url }}" width="40%">
 
 Clustering groups of experimentation conditions based on attention scores.
 
-<img alt="Spectral Analysis" src="{{ "figures/Pmatrix005_ann.png" | relative_url }}" width="70%">
+<img alt="Spectral Analysis" src="{{ "analysis/figures/Pmatrix005_ann.png" | relative_url }}" width="70%">
 ## Signal analysis - for feature engineering
 Signal Analysis of all the recorded signals will be updated here soon...
 
