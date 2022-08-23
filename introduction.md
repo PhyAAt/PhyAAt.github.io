@@ -25,11 +25,22 @@ Once Phyaat library is installed, the dataset can be downloaded using it. You co
 import phyaat
 print('Version :' ,phyaat.__version__)
 import phyaat as ph
+```
 
-# to download dataset of subject 1 in given path 'dirpath'
+
+### To download dataset of subject 1 in given path 'dirpath'
+
+```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=1,verbose=0,overwrite=False)
+#returns a dictionary containing file names of all the subjects available in baseDir
+SubID = ph.ReadFilesPath(dirPath)
 
-# to download dataset of all the subjects
+# list of all the subjects in the dataset directory
+print(SubID.keys())
+```
+
+### To download dataset of all the subjects
+```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwrite=False)
 
 #Check the humber of subjects are in directory - read the file path of all the subjects available
@@ -38,7 +49,6 @@ baseDir='../PhyAAt_Data'   # or dirPath return path from above
 
 #returns a dictionary containing file names of all the subjects available in baseDir
 SubID = ph.ReadFilesPath(baseDir)
-
 # list of all the subjects in the dataset directory
 print(SubID.keys())
 ```
@@ -50,25 +60,32 @@ print(SubID.keys())
 #Creat an object holding data of a subjects
 
 Subj = ph.Subject(SubID[1])
-
 ```
 
-<h4 class="no-bg">3.1. Filtering </h4>
+
+<h3 class="no-bg">3.1. Filtering </h4>
+
+### Highpass filter with cut-off frrequency of 0.5Hz
+
+This is very standard to remove any dc component and drift in the signal
 
 ```python
 #filtering with highpass filter of cutoff frequency 0.5Hz
 Subj.filter_EEG(band =[0.5],btype='highpass',order=5)
+```
+
+### Filtering with custum range of feequecy should be between 0-64Hz
 
 
-#Filtering with custum range of feequecy should be between 0-64Hz
-
+```python
 #filtering with bandpass filter Thata
 Subj.filter_EEG(band =[4,8],btype='bandpass',order=5)
+```
 
 
+```python
 #filtering with lowpass filter Delta
-Subj.filter_EEG(band =[4],btype='lowpass',order=5)
-
+Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 ```
 
 
