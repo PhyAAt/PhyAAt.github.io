@@ -10,16 +10,16 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 <font size="4"> For quick start with predictive modeling, check <a href="/modeling/index.html" target="_blank"> <span style="font-weight:bold"> EXAMPLE CODE</span></a></font>
 
 **Table of Contents**
-* **[1. Install Library](#1-install-library-)**
-* **[2. Download dataset](#2-download-dataset-)**
-* **[3. Preprocessing](#3-preprocessing-)**
-  * **[3.1. Filtering](#31-filtering-)**
+* **[1. Install Library](#1-install-library)**
+* **[2. Download dataset](#2-download-dataset)**
+* **[3. Preprocessing](#3-preprocessing)**
+  * **[3.1. Filtering](#31-filtering)**
   * **[3.2. Applyting Artifact Removal Algorithm on EEG](#32-applyting-artifact-removal-algorithm-on-eeg)**
 * **[4. Extract X,y for a task Rhythmic Features](#4-extract-xy-for-a-task-rhythmic-features)**
 * **[5. Predictive Modelling](#5-predictive-modeling)**
 * **[6. Extracting LWR segments for extranal processing](#6-extracting-lwr-segments-for-extranal-processing)**
 
-<h2 class="no-bg">1. Install Library </h2>
+<h2 class="no-bg", id="1-install-library">1. Install Library</h2>
 
 First install the python library
 
@@ -27,7 +27,7 @@ First install the python library
 pip install phyaat
 ```
 
-<h2 class="no-bg">2. Download dataset </h2>
+<h2 class="no-bg",id="2-download-dataset">2. Download dataset</h2>
 Once Phyaat library is installed, the dataset can be downloaded using it. You could download all the dataset together or data of one particulat subject for testing and running.
 
 ```python
@@ -67,15 +67,15 @@ SubID = ph.ReadFilesPath(baseDir)
 print(SubID.keys())
 ```
 
-<h2 class="no-bg">3. Preprocessing </h2>
+<h2 class="no-bg", id="3-preprocessing">3. Preprocessing</h2>
 
 ```python
 #Creat an object holding data of a subjects
-
+'
 Subj = ph.Subject(SubID[1])
 ```
 
-<h3 class="no-bg">3.1. Filtering </h3>
+<h3 class="no-bg", id="31-filtering">3.1. Filtering</h3>
 **Highpass filter with cut-off frrequency of 0.5Hz**
 
 <!-- <h4 class="no-bg">Highpass filter with cut-off frrequency of 0.5Hz </h4> -->
@@ -126,7 +126,7 @@ Subj.filter_EEG(band =[0.5],btype='highpass',order=5,method='lfilter',fs=128.0,v
 ```
 
 
-<h3 class="no-bg" id='32-applyting-artifact-removal-algorithm-on-eeg'>3.2 Applyting Artifact Removal Algorithm on EEG</h3>
+<h3 class="no-bg" id="32-applyting-artifact-removal-algorithm-on-eeg">3.2 Applyting Artifact Removal Algorithm on EEG</h3>
 
 <h4 class="no-bg"><b>ATAR Algorithm - Wavelet based approach (in version>0.0.2)</b></h4>
 A wavelet based tunable algorithm
@@ -182,10 +182,7 @@ Subj.correct(method='ICA',winsize=128,hopesize=None,Corr=Corr,KurThr=KurThr,
 help(ph.Subject.correct)
 ```
 
-
-
-
-<h2 class="no-bg" id='6-extracting-lwr-segments-for-extranal-processing'>4. Extract X,y for a task Rhythmic Features</h2>
+<h2 class="no-bg" id="6-extracting-lwr-segments-for-extranal-processing">4. Extract X,y for a task Rhythmic Features</h2>
 
 <h4 class="no-bg">4.1 Extracting Features Segment-wise</h4>
 
@@ -280,7 +277,7 @@ X_train,y_train, X_test,y_test = Subj.getXy_eeg(task=1, redo=True,normalize=Fals
 print(ph.Subject.getXy_eeg)
 ```
 
-<h2 class="no-bg">5. Predictive Modeling</h2>
+<h2 class="no-bg", id="5-predictive-modeling">5. Predictive Modeling</h2>
 Once you have ```X_train,y_train, X_test,y_test```, it is easy to apply any ML or DL model to train and test. Here is a simple example of SVM. For more details on other models, check  here - **[Predictive Modeling](https://phyaat.github.io/modeling/)**
 
 ```python
@@ -305,7 +302,7 @@ print('Training Accuracy:',np.mean(y_train==ytp))
 print('Testing  Accuracy:',np.mean(y_test==ysp))
 ```
 
-<h2 class="no-bg">6. Extracting LWR segments for extranal processing</h2>
+<h2 class="no-bg",id="6-extracting-lwr-segments-for-extranal-processing">6. Extracting LWR segments for extranal processing</h2>
 
 
 ```python
