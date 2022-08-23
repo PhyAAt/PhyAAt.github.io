@@ -67,9 +67,9 @@ Subj = ph.Subject(SubID[1])
 ```
 
 <h3 class="no-bg">3.1. Filtering </h3>
+**Highpass filter with cut-off frrequency of 0.5Hz**
 
-<h4 class="no-bg">Highpass filter with cut-off frrequency of 0.5Hz </h4>
-
+<!-- <h4 class="no-bg">Highpass filter with cut-off frrequency of 0.5Hz </h4> -->
 <!-- ### Highpass filter with cut-off frrequency of 0.5Hz -->
 
 This is very standard to remove any dc component and drift in the signal
@@ -79,22 +79,27 @@ This is very standard to remove any dc component and drift in the signal
 Subj.filter_EEG(band =[0.5],btype='highpass',order=5)
 ```
 
-<h4 class="no-bg">Filtering with custum range of feequecy should be between 0-64Hz</h4>
+**Filtering with custum range of feequecy should be between 0-64Hz**
+<!-- <h4 class="no-bg">Filtering with custum range of feequecy should be between 0-64Hz</h4> -->
 To analyse EEG in particulare band of frequency, such as for ERP analysis, you might need to apply for custom range of frequency band.
 
 <!-- ### Filtering with custum range of feequecy should be between 0-64Hz -->
 
 <!-- #### Lowpass filter -->
 
-<h5 class="no-bg">Lowpass filter</h5>
+<!-- <h5 class="no-bg">Lowpass filter</h5> -->
+
+**Lowpass filter**
 
 ```python
 #filtering with lowpass filter Delta
 Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 ```
+
+**Bandpass filter**
 <!-- #### Bandpass filter -->
 
-<h5 class="no-bg">Bandpass filter</h5>
+<!-- <h5 class="no-bg">Bandpass filter</h5> -->
 
 ```python
 #filtering with bandpass filter Thata
@@ -102,16 +107,21 @@ Subj.filter_EEG(band =[4,8],btype='bandpass',order=5)
 ```
 
 
-<h4 class="no-bg">3.2 Applyting Artifact Removal on EEG ICA based approach</h4>
+<h3 class="no-bg">3.2 Applyting Artifact Removal Algorithm on EEG</h3>
+
+<h4 class="no-bg">- ATAR Algorithm - Wavelet based approach (in version>0.0.2)</h4>
+Ref: 
+* [Automatic and Tunable Artifact Removal Algorithm for EEG ](https://doi.org/10.1016/j.bspc.2019.101624)
 
 ```python
-# with window size =1280 (10 sec)
-Subj.correct(method='ICA',verbose=1,winsize=128*10)
+# with window size =128 (1 sec, recommonded). To save time, use winsize=128*10, 10 sec window
 
-#method ='WT' or 'ATAR' not implemented yet
+Subj.correct(method='ATAR',verbose=1,winsize=128, wv='db3', thr_method='ipr',  OptMode='soft',beta=0.1)
+```
 
+**Change parameters of ICA based artifact Removal**
 
-#Chnage parameters of ICA based artifact Removal
+```python
 KurThr = 2
 Corr   = 0.8
 ICAMed = 'extended-infomax' #picard, fastICA
@@ -123,6 +133,35 @@ Subj.correct(method='ICA',winsize=128,hopesize=None,Corr=Corr,KurThr=KurThr,
 #check all the parameters here
 help(ph.Subject.correct)
 ```
+
+
+
+<h4 class="no-bg">- ICA based approach</h4>
+ 
+
+```python
+# with window size =128 (1 sec, recommonded). To save time, use winsize=128*10, 10 sec window
+
+Subj.correct(method='ICA',verbose=1,winsize=128)
+```
+
+**Change parameters of ICA based artifact Removal**
+
+```python
+KurThr = 2
+Corr   = 0.8
+ICAMed = 'extended-infomax' #picard, fastICA
+
+Subj.correct(method='ICA',winsize=128,hopesize=None,Corr=Corr,KurThr=KurThr,
+             ICAMed=ICAMed,verbose=0, window=['hamming',True],
+             winMeth='custom')
+
+#check all the parameters here
+help(ph.Subject.correct)
+```
+
+
+
 
 <h2 class="no-bg">4. Extract X,y for a task Rhythmic Features</h2>
 
