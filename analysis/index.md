@@ -10,10 +10,11 @@ Statistical analysis of the text response was done in great detail. Article for 
 * **Analysis of Factors Affecting the Auditory Attention of Non-native Speakers in e-Learning Environments**, The Electronic Journal of e-Learning, 19(3), pp. 159-169.
 	[PDF](https://academic-publishing.org/index.php/ejel/article/view/2296)
   
-  
+**Interaction between Noise and Semanticity over Attention Score.**  
 <img alt="Spectral Analysis" src="{{ "figures/NvsSem_3.png" | relative_url }}" width="40%">
 <img alt="Spectral Analysis" src="{{ "figures/NvsL_3.png" | relative_url }}" width="40%">
-	
+
+Clustering groups of experimentation conditions based on attention scores.
 
 <img alt="Spectral Analysis" src="{{ "figures/Pmatrix005_ann.png" | relative_url }}" width="70%">
 ## Signal analysis - for feature engineering
