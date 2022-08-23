@@ -109,7 +109,8 @@ Subj.filter_EEG(band =[4,8],btype='bandpass',order=5)
 <h3 class="no-bg">3.2 Applyting Artifact Removal Algorithm on EEG</h3>
 
 <h4 class="no-bg"><b>ATAR Algorithm - Wavelet based approach (in version>0.0.2)</b></h4>
-A wavelet based tunable algorithm, * **[Automatic and Tunable Artifact Removal Algorithm for EEG ](https://doi.org/10.1016/j.bspc.2019.101624)**
+A wavelet based tunable algorithm
+* **[Automatic and Tunable Artifact Removal Algorithm for EEG ](https://doi.org/10.1016/j.bspc.2019.101624)**
 
 ```python
 # with window size =128 (1 sec, recommonded). To save time, use winsize=128*10, 10 sec window
@@ -243,7 +244,7 @@ print(ph.Subject.getXy_eeg)
 
 <h4 class="no-bg">4.4 Extracting EEG Features with custom frequency bands</h4>
 
-* https://phyaat.github.io/modeling/8_Custom_Freq_Bands
+* **[https://phyaat.github.io/modeling/8_Custom_Freq_Bands]https://phyaat.github.io/modeling/8_Custom_Freq_Bands**
 
 
 ```python
