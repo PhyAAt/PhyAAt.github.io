@@ -28,7 +28,8 @@ import phyaat as ph
 ```
 
 
-### To download dataset of subject 1 in given path 'dirpath'
+### To download dataset of subject 1'
+To download data set of only one subject with subject id=1 (subject=1), use following code. Here baseDir = '../PhyAAt_Data' is path where data will be downloaded and stored. Make sure you have permission to write in given path.
 
 ```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=1,verbose=0,overwrite=False)
@@ -76,16 +77,16 @@ Subj.filter_EEG(band =[0.5],btype='highpass',order=5)
 
 ### Filtering with custum range of feequecy should be between 0-64Hz
 
+#### Lowpass filter
+```python
+#filtering with lowpass filter Delta
+Subj.filter_EEG(band =[30],btype='lowpass',order=5)
+```
+#### Bandpass filter
 
 ```python
 #filtering with bandpass filter Thata
 Subj.filter_EEG(band =[4,8],btype='bandpass',order=5)
-```
-
-
-```python
-#filtering with lowpass filter Delta
-Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 ```
 
 
