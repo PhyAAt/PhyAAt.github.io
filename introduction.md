@@ -9,7 +9,7 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 
 <font size="4"> For quick start with predictive modeling, check <a href="/modeling/index.html" target="_blank"> <span style="font-weight:bold"> EXAMPLE CODE</span></a></font>
 
-Table of Contents
+**Table of Contents**
 * **[1. Install Library](#1-install-library-)**
 * **[2. Download dataset](#2-download-dataset-)**
 * **[3. Preprocessing](#3-preprocessing-)**
