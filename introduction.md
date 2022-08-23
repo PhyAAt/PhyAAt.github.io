@@ -280,6 +280,7 @@ print(ph.Subject.getXy_eeg)
 <h2 class="no-bg", id="5-predictive-modeling">5. Predictive Modeling</h2>
 Once you have ```X_train,y_train, X_test,y_test```, it is easy to apply any ML or DL model to train and test. Here is a simple example of SVM. For more details on other models, check  here - **[Predictive Modeling](https://phyaat.github.io/modeling/)**
 
+
 ```python
 # Normalization - SVM works well with normalized features
 means = X_train.mean(0)
