@@ -126,10 +126,7 @@ Subj.filter_EEG(band =[0.5],btype='highpass',order=5,method='lfilter',fs=128.0,v
 ```
 
 
-
-
-
-<h3 class="no-bg">3.2 Applyting Artifact Removal Algorithm on EEG</h3>
+<h3 class="no-bg" id='32-applyting-artifact-removal-algorithm-on-eeg'>3.2 Applyting Artifact Removal Algorithm on EEG</h3>
 
 <h4 class="no-bg"><b>ATAR Algorithm - Wavelet based approach (in version>0.0.2)</b></h4>
 A wavelet based tunable algorithm
@@ -188,7 +185,7 @@ help(ph.Subject.correct)
 
 
 
-<h2 class="no-bg">4. Extract X,y for a task Rhythmic Features</h2>
+<h2 class="no-bg" id='6-extracting-lwr-segments-for-extranal-processing'>4. Extract X,y for a task Rhythmic Features</h2>
 
 <h4 class="no-bg">4.1 Extracting Features Segment-wise</h4>
 
