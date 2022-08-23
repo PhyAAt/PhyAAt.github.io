@@ -231,7 +231,7 @@ print('\nClass labels :',np.unique(y_train))
 <h4 class="no-bg">4.3 Hyperparameters for feature extraction method </h4>
 ```python
 
-X_train,y_train, X_test,y_test = Subj.getXy_eeg(ttask=1, features='rhythmic', eSample=[0, 0],
+X_train,y_train, X_test,y_test = Subj.getXy_eeg(task=1, features='rhythmic', eSample=[0, 0],
                verbose=1, redo=False, split='serial', splitAt=100, normalize=False,
                log10p1=True, flat=True, filter_order=5, method='welch', window='hann',
                scaling='density', detrend='constant', period_average='mean',
@@ -240,6 +240,25 @@ X_train,y_train, X_test,y_test = Subj.getXy_eeg(ttask=1, features='rhythmic', eS
 #Check help
 print(ph.Subject.getXy_eeg)
 ```
+
+<h4 class="no-bg">4.4 Extracting EEG Features with custom frequency bands</h4>
+
+* https://phyaat.github.io/modeling/8_Custom_Freq_Bands
+
+
+```python
+fBands = [[None,8],[8,24],[24,32]]
+
+X_train,y_train, X_test,y_test = Subj.getXy_eeg(task=1, redo=True,normalize=False, log10p1=True,
+                               flat=False, filter_order=5, filter_method='SOS', method='welch', window='hann',
+                               scaling='density', detrend='constant', period_average='mean',
+                               fBands=fBands, Sum=True, Mean=False, SD=False,verbose=0,
+                               useRaw=False,redo_warn=True,use_v0=False)
+
+#Check help
+print(ph.Subject.getXy_eeg)
+```
+
 
 
 <h2 class="no-bg">5.Extracting LWR segments for extranal processing</h2>
