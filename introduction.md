@@ -27,8 +27,10 @@ print('Version :' ,phyaat.__version__)
 import phyaat as ph
 ```
 
+<h3 class="no-bg">2.1 To download dataset of subject #1</h4>
 
-### To download dataset of subject 1'
+<!-- ### To download dataset of subject 1' -->
+
 To download data set of only one subject with subject id=1 (subject=1), use following code. Here baseDir = '../PhyAAt_Data' is path where data will be downloaded and stored. Make sure you have permission to write in given path.
 
 ```python
@@ -40,7 +42,9 @@ SubID = ph.ReadFilesPath(dirPath)
 print(SubID.keys())
 ```
 
-### To download dataset of all the subjects
+<h3 class="no-bg">2.2 To download dataset of all the subjects</h4>
+<!-- ### To download dataset of all the subjects -->
+
 ```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwrite=False)
 
@@ -57,16 +61,16 @@ print(SubID.keys())
 <h2 class="no-bg">3. Preprocessing </h2>
 
 ```python
-
 #Creat an object holding data of a subjects
 
 Subj = ph.Subject(SubID[1])
 ```
 
-
 <h3 class="no-bg">3.1. Filtering </h4>
 
-### Highpass filter with cut-off frrequency of 0.5Hz
+<h4 class="no-bg">Highpass filter with cut-off frrequency of 0.5Hz </h4>
+
+<!-- ### Highpass filter with cut-off frrequency of 0.5Hz -->
 
 This is very standard to remove any dc component and drift in the signal
 
