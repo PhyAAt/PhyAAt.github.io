@@ -10,7 +10,7 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 <font size="4"> For quick start with predictive modeling, check <a href="/modeling/index.html" target="_blank"> <span style="font-weight:bold"> EXAMPLE CODE</span></a></font>
 
 **Table of Contents**
-* **[1. Install Library](#1-install-library)**
+* **[Install Library](#1-install-library)**
 * **[2. Download dataset](#2-download-dataset)**
 * **[3. Preprocessing](#3-preprocessing)**
   * **[3.1. Filtering](#31-filtering)**
@@ -19,6 +19,19 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 * **[5. Predictive Modelling](#5-predictive-modeling)**
 * **[6. Extracting LWR segments for extranal processing](#6-extracting-lwr-segments-for-extranal-processing)**
 
+
+
+<!-- 1. [Install Library](#1-install-library)
+2. [Download dataset](#2-download-dataset)
+3. [Preprocessing](#3-preprocessing)
+      3.1 [Filtering](#31-filtering)
+      3.2 [Applyting Artifact Removal Algorithm on EEG](#32-applyting-artifact-removal-algorithm-on-eeg)
+4. [Extract X,y for a task Rhythmic Features](#4-extract-xy-for-a-task-rhythmic-features)
+5. [Predictive Modelling](#5-predictive-modeling)
+6. [Extracting LWR segments for extranal processing](#6-extracting-lwr-segments-for-extranal-processing)
+
+ -->
+ 
 <h2 class="no-bg" id="1-install-library">1. Install Library</h2>
 
 First install the python library
