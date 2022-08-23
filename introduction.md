@@ -92,7 +92,7 @@ To analyse EEG in particulare band of frequency, such as for ERP analysis, you m
 **Lowpass filter**
 
 ```python
-#filtering with lowpass filter Delta
+#filtering with lowpass filter
 Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 ```
 
@@ -102,33 +102,34 @@ Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 <!-- <h5 class="no-bg">Bandpass filter</h5> -->
 
 ```python
-#filtering with bandpass filter Thata
+#filtering with bandpass filter Theta
 Subj.filter_EEG(band =[4,8],btype='bandpass',order=5)
 ```
 
-
 <h3 class="no-bg">3.2 Applyting Artifact Removal Algorithm on EEG</h3>
 
-<h4 class="no-bg">- ATAR Algorithm - Wavelet based approach (in version>0.0.2)</h4>
-Ref: 
-* [Automatic and Tunable Artifact Removal Algorithm for EEG ](https://doi.org/10.1016/j.bspc.2019.101624)
+<h4 class="no-bg"><b>ATAR Algorithm - Wavelet based approach (in version>0.0.2)</b></h4>
+A wavelet based tunable algorithm, * **[Automatic and Tunable Artifact Removal Algorithm for EEG ](https://doi.org/10.1016/j.bspc.2019.101624)**
 
 ```python
 # with window size =128 (1 sec, recommonded). To save time, use winsize=128*10, 10 sec window
 
 Subj.correct(method='ATAR',verbose=1,winsize=128, wv='db3', thr_method='ipr',  OptMode='soft',beta=0.1)
+
+# check all the parameters for ATAR
+help(ph.Subject.correct)
 ```
 
-**Change parameters of ICA based artifact Removal**
+**Tune the parameters of ATAR algorithm**: Mostly, we tune beta,
+
+* **[Check tuning](https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb)**
+
 
 ```python
-KurThr = 2
-Corr   = 0.8
-ICAMed = 'extended-infomax' #picard, fastICA
+OptMode='elim'
+beta=0.2
 
-Subj.correct(method='ICA',winsize=128,hopesize=None,Corr=Corr,KurThr=KurThr,
-             ICAMed=ICAMed,verbose=0, window=['hamming',True],
-             winMeth='custom')
+Subj.correct(method='ATAR',verbose=1,winsize=128, wv='db3', thr_method='ipr',  OptMode=OptMode,beta=beta)
 
 #check all the parameters here
 help(ph.Subject.correct)
@@ -136,7 +137,7 @@ help(ph.Subject.correct)
 
 
 
-<h4 class="no-bg">- ICA based approach</h4>
+<h4 class="no-bg"><b>ICA based approach</b></h4>
  
 
 ```python
