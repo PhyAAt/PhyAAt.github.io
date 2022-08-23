@@ -244,7 +244,7 @@ print(ph.Subject.getXy_eeg)
 
 <h4 class="no-bg">4.4 Extracting EEG Features with custom frequency bands</h4>
 
-* **[https://phyaat.github.io/modeling/8_Custom_Freq_Bands]https://phyaat.github.io/modeling/8_Custom_Freq_Bands**
+* **[https://phyaat.github.io/modeling/8_Custom_Freq_Bands](https://phyaat.github.io/modeling/8_Custom_Freq_Bands)**
 
 
 ```python
