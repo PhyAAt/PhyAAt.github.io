@@ -310,7 +310,10 @@ print('Testing  Accuracy:',np.mean(y_test==ysp))
 
 <h2 class="no-bg">6. Extracting LWR segments for extranal processing</h2>
 
+
 ```python
 L,W,R, Scores, Cols = Subj.getLWR()
 
 ```
+
+Check here - [code](https://phyaat.github.io/modeling/5_UsingExternalLibraries) for using extracting signals and processing with external libraries
