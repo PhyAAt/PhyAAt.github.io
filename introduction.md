@@ -9,6 +9,15 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 
 <font size="4"> For quick start with predictive modeling, check <a href="/modeling/index.html" target="_blank"> <span style="font-weight:bold"> EXAMPLE CODE</span></a></font>
 
+Table of Contents
+* **[1. Install Library](#1-install-library-)**
+* **[2. Download dataset](#2-download-dataset-)**
+* **[3. Preprocessing](#3-preprocessing-)**
+ * **[3.1. Filtering](#31-filtering-)**
+ * **[3.2. Applyting Artifact Removal Algorithm on EEG](#32-applyting-artifact-removal-algorithm-on-eeg)**
+* **[4. Extract X,y for a task Rhythmic Features](#4-extract-xy-for-a-task-rhythmic-features)**
+* **[5. Predictive Modelling](#5-predictive-modeling)**
+* **[6.Extracting LWR segments for extranal processing](#6-extracting-lwr-segments-for-extranal-processing)**
 
 <h2 class="no-bg">1. Install Library </h2>
 
@@ -274,9 +283,32 @@ X_train,y_train, X_test,y_test = Subj.getXy_eeg(task=1, redo=True,normalize=Fals
 print(ph.Subject.getXy_eeg)
 ```
 
+<h2 class="no-bg">5. Predictive Modeling</h2>
+Once you have ```X_train,y_train, X_test,y_test```, it is easy to apply any ML or DL model to train and test. Here is a simple example of SVM. For more details on other models, check  here - **[Predictive Modeling](https://phyaat.github.io/modeling/)**
+
+```python
+# Normalization - SVM works well with normalized features
+means = X_train.mean(0)
+std   = X_train.std(0)
+X_train = (X_train-means)/std
+X_test  = (X_test-means)/std
 
 
-<h2 class="no-bg">5.Extracting LWR segments for extranal processing</h2>
+# Training
+clf = svm.SVC(kernel='rbf', C=1,gamma='auto')
+clf.fit(X_train,y_train)
+
+# Predition
+ytp = clf.predict(X_train)
+ysp = clf.predict(X_test)
+
+# Evaluation
+
+print('Training Accuracy:',np.mean(y_train==ytp))
+print('Testing  Accuracy:',np.mean(y_test==ysp))
+```
+
+<h2 class="no-bg">6. Extracting LWR segments for extranal processing</h2>
 
 ```python
 L,W,R, Scores, Cols = Subj.getLWR()
