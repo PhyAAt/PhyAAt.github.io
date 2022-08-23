@@ -14,7 +14,7 @@ In this section, we explain how to get started with the dataset and modeling. Fo
 * **[2. Download dataset](#2-download-dataset)**
 * **[3. Preprocessing](#3-preprocessing)**
   * **[3.1. Filtering](#31-filtering)**
-  * **[3.2. Applyting Artifact Removal Algorithm on EEG](#32-applyting-artifact-removal-algorithm-on-eeg)**
+  * **[3.2. Applyting Artifact Removal Algorithm on EEG (ATAR and ICA)](#32-applyting-artifact-removal-algorithm-on-eeg)**
 * **[4. Extract X,y for a task Rhythmic Features](#4-extract-xy-for-a-task-rhythmic-features)**
 * **[5. Predictive Modelling](#5-predictive-modeling)**
 * **[6. Extracting LWR segments for extranal processing](#6-extracting-lwr-segments-for-extranal-processing)**
