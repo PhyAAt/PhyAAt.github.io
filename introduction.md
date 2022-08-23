@@ -27,7 +27,7 @@ print('Version :' ,phyaat.__version__)
 import phyaat as ph
 ```
 
-<h3 class="no-bg">2.1 To download dataset of subject #1</h4>
+<h3 class="no-bg">2.1 To download dataset of subject #1</h3>
 
 <!-- ### To download dataset of subject 1' -->
 
@@ -42,7 +42,7 @@ SubID = ph.ReadFilesPath(dirPath)
 print(SubID.keys())
 ```
 
-<h3 class="no-bg">2.2 To download dataset of all the subjects</h4>
+<h3 class="no-bg">2.2 To download dataset of all the subjects</h3>
 <!-- ### To download dataset of all the subjects -->
 
 ```python
@@ -66,7 +66,7 @@ print(SubID.keys())
 Subj = ph.Subject(SubID[1])
 ```
 
-<h3 class="no-bg">3.1. Filtering </h4>
+<h3 class="no-bg">3.1. Filtering </h3>
 
 <h4 class="no-bg">Highpass filter with cut-off frrequency of 0.5Hz </h4>
 
@@ -79,14 +79,22 @@ This is very standard to remove any dc component and drift in the signal
 Subj.filter_EEG(band =[0.5],btype='highpass',order=5)
 ```
 
-### Filtering with custum range of feequecy should be between 0-64Hz
+<h4 class="no-bg">Filtering with custum range of feequecy should be between 0-64Hz</h4>
+To analyse EEG in particulare band of frequency, such as for ERP analysis, you might need to apply for custom range of frequency band.
 
-#### Lowpass filter
+<!-- ### Filtering with custum range of feequecy should be between 0-64Hz -->
+
+<!-- #### Lowpass filter -->
+
+<h5 class="no-bg">Lowpass filter</h5>
+
 ```python
 #filtering with lowpass filter Delta
 Subj.filter_EEG(band =[30],btype='lowpass',order=5)
 ```
-#### Bandpass filter
+<!-- #### Bandpass filter -->
+
+<h5 class="no-bg">Bandpass filter</h5>
 
 ```python
 #filtering with bandpass filter Thata
