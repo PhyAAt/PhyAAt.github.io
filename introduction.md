@@ -27,7 +27,7 @@ First install the python library
 pip install phyaat
 ```
 
-<h2 class="no-bg",id="2-download-dataset">2. Download dataset</h2>
+<h2 class="no-bg" id="2-download-dataset">2. Download dataset</h2>
 Once Phyaat library is installed, the dataset can be downloaded using it. You could download all the dataset together or data of one particulat subject for testing and running.
 
 ```python
@@ -182,7 +182,7 @@ Subj.correct(method='ICA',winsize=128,hopesize=None,Corr=Corr,KurThr=KurThr,
 help(ph.Subject.correct)
 ```
 
-<h2 class="no-bg" id="6-extracting-lwr-segments-for-extranal-processing">4. Extract X,y for a task Rhythmic Features</h2>
+<h2 class="no-bg" id="4-extract-xy-for-a-task-rhythmic-features">4. Extract X,y for a task Rhythmic Features</h2>
 
 <h4 class="no-bg">4.1 Extracting Features Segment-wise</h4>
 
