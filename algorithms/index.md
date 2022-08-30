@@ -6,14 +6,19 @@ layout: base
 <div class="section" id="Algorithm">
 <h1>Algorithms<a class="headerlink" href="#experiment" title="Permalink to this headline"></a></h1>
 <h2 ><a href="artifact_algo.html">Automatic and Tuanable Artifact Removal (ATAR) algorithm</a></h2>
-<strong>Wavelet based approach</strong>, Article - <strong>Artifact Removal</strong> can be found <a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"><strong>here</strong></a><a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"> <i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a>
+<strong>Wavelet based approach</strong>, Article - <strong>Artifact Removal</strong> can be found <a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"><strong>here</strong></a><a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"> <i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a>.
+ 
+A Tutorial of explaining how to remove artifact from EEG can be found: <a href="https://link.medium.com/90mYhbr8Osb" target="_blank"><strong>here</strong></a>
+ 
 <br>
 
 <img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="90%">
 
 <figure>
-<img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="49%">
-<img style="float: right;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="49%">
+<!-- <img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="49%">
+<img style="float: right;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="49%"> -->
+ 
+<img style="float: right;"  src="{{ "/assets/images/ATAR_ICA_1.PNG" | relative_url }}" width="85%">
 </figure>
 
 <center>
@@ -22,6 +27,8 @@ layout: base
 </figure>
 </center>  
 
+ 
+ 
  <br>
 
 <strong>Python implementation </strong> of ATAR Algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
