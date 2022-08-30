@@ -9,20 +9,18 @@ layout: base
 <strong>Wavelet based approach</strong>, Article - <strong>Artifact Removal</strong> can be found <a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"><strong>here</strong></a><a href="https://doi.org/10.1016/j.bspc.2019.101624" target="_blank"> <i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a>
 <br>
 
-
+<img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="90%">
 
 <figure>
-<img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="40%">
-<img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="40%">
+<img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="49%">
+<img style="float: right;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="49%">
 </figure>
 
 <center>
 <figure>
-<img style="float: left;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="80%">
+<img style="float: center;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="80%">
 </figure>
 </center>  
-  
-<img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="70%">
 
  <br>
 
