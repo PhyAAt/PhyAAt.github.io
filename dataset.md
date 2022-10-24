@@ -67,8 +67,24 @@ If you are using other programming framework such as matlab or R, Download datas
 
 
 
+<h2 class="no-bg">Download tabular data for statistical analysis</h2>
+For statistical analysis of attention score with auditory conditions, download a compiled datasheet [**here**](https://github.com/Nikeshbajaj/PhyaatDataset/blob/master/PhyAAt_AttentionScoreData_v1.csv) as csv file.
+
+File structure is as follow;
+
+| SID | SNRdB | Semanticity | LengthStim  | AttentionScore |
+| ----------- | ----------- | ----------- | -----------  |
+| S1 | -6 | 1	| L3	| 11.18881119 |
+| S3 | 1000 | 0	| L2	| 86.16071429 |
+| S5 |  6 | 0	| L2	| 75 |
 
 
+Here:
+* **SID**   : Subject ID, S1 .. S25
+* **SNRdB** : Noise Level in dB, -6,-3,0,3,6, 1000. Here 1000 is for noise free
+* **Semanticity**: Semanticity, 0-Semantic, 1-Non Semantic
+* **LengthStim**: Length of stimulus, L1-small, L2-medium, and L3-long
+* **AttentionScore**: Average Attention score for given condition (average score of multiple stimuli in same auditory condition)
 
 
 
