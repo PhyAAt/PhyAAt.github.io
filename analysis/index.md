@@ -16,6 +16,10 @@ Statistical analysis of the text response was done in great detail. Article for 
 
 Clustering groups of experimentation conditions based on attention scores.
 
+* **To download the tabular data for statistical analysis check here** 
+* [download tabular data](https://phyaat.github.io/dataset#tabular-data)
+
+
 <img alt="Spectral Analysis" src="{{ "analysis/figures/Pmatrix005_ann.png" | relative_url }}" width="70%">
 ## Signal analysis - for feature engineering
 Signal Analysis of all the recorded signals will be updated here soon...
