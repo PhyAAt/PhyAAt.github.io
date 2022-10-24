@@ -94,7 +94,8 @@ Here:
 * **LengthStim**: Length of stimulus, L1-small, L2-medium, and L3-long
 * **AttentionScore**: Average Attention score for given condition (average score of multiple stimuli in same auditory condition). Attention score ranges from 0 to 100, as a level of attention.
 
-In addtion, a file with demographics and self rating of language can be download too - <p style="font-size:20px"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">Download Demographic Data File</a></p>
+In addtion, a file with demographics and self rating of language can be download too.
+<p style="font-size:20px"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">Download Demographic Data File</a></p>
 
 
 
