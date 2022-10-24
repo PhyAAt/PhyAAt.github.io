@@ -70,6 +70,10 @@ If you are using other programming framework such as matlab or R, Download datas
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 For statistical analysis of attention score with auditory conditions, download a compiled datasheet [**here**](https://github.com/Nikeshbajaj/PhyaatDataset/blob/master/PhyAAt_AttentionScoreData_v1.csv) as csv file.
 
+https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv
+
+<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download File</a>
+
 File structure is as follow;
 
 | SID | SNRdB | Semanticity | LengthStim  | AttentionScore |
