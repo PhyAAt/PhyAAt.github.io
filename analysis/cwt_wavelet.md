@@ -13,3 +13,16 @@ layout: base
   </div>
 
   </div>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teaching</title>
+     <meta charset="UTF-8" />
+     <meta http-equiv="refresh" content="0; URL=https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ScalogramCWT_v0.0.9.2.ipynb" />
+   </head>
+   <body>
+     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ScalogramCWT_v0.0.9.2.ipynb">here</a> to go to the Teaching.</p>
+   </body>
+</html>
