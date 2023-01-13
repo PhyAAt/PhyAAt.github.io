@@ -13,3 +13,16 @@ layout: base
   </div>
 
   </div>
+  
+  
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Artifact Removal Algorithm</title>
+     <meta charset="UTF-8" />
+     <meta http-equiv="refresh" content="0; URL=https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" />
+   </head>
+   <body>
+     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb">here</a> to go to the Teaching.</p>
+   </body>
+</html>  
