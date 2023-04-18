@@ -9,6 +9,12 @@ In this notebook, we explain how to extract features segment-wise and window-wis
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example3_FeatureExtraction.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
+
+<img src = "figures/featureextraction_win.png" width=50%>
+
+<!-- https://github.com/PhyAAt/PhyAAt.github.io/blob/master/modeling/figures/featureextraction_win.png?raw=true -->
+
+
 <h2>Table of Contents<span class="tocSkip"></span></h2>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Read-the-data-of-subject=1" data-toc-modified-id="Read-the-data-of-subject=1-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Read the data of subject=1</a></span></li><li><span><a href="#Filtering" data-toc-modified-id="Filtering-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Filtering</a></span></li><li><span><a href="#Artifact-removal-using-ICA" data-toc-modified-id="Artifact-removal-using-ICA-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Artifact removal using ICA</a></span></li><li><span><a href="#T4:-LWR-Classification" data-toc-modified-id="T4:-LWR-Classification-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>T4: LWR Classification</a></span><ul class="toc-item"><li><span><a href="#Segment-wise-feature-extraction" data-toc-modified-id="Segment-wise-feature-extraction-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Segment-wise feature extraction</a></span></li><li><span><a href="#Window-wise-Feature-Extraction-(2sec-window)" data-toc-modified-id="Window-wise-Feature-Extraction-(2sec-window)-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Window-wise Feature Extraction (2sec window)</a></span><ul class="toc-item"><li><span><a href="#Notice-the-number-of-exmaples-(Shape-of-X,-y)" data-toc-modified-id="Notice-the-number-of-exmaples-(Shape-of-X,-y)-4.2.1"><span class="toc-item-num">4.2.1&nbsp;&nbsp;</span>Notice the number of exmaples (Shape of X, y)</a></span></li></ul></li></ul></li><li><span><a href="#Tuning-Feature-Extraction-process" data-toc-modified-id="Tuning-Feature-Extraction-process-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tuning Feature Extraction process</a></span></li></ul></div>
 
