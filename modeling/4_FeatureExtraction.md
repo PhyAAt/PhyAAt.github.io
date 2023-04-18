@@ -43,7 +43,7 @@ import phyaat as ph
     Version : 0.0.2
 
 
-## Read the data of subject=1
+## Read the data of subject=1 <a name="Read-the-data-of-subject=1"></a>
 
 ```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=1,verbose=0,overwrite=False)
@@ -58,7 +58,8 @@ Subj = ph.Subject(SubID[1])
     Total Subjects :  1
 
 
-## Filtering
+## Filtering <a name="#Filtering"></a>
+
 **With Custum frequency range**
 
 
@@ -89,12 +90,14 @@ Subj.correct(method='ICA',winsize=winsize,hopesize=None,Corr=Corr,KurThr=KurThr,
 
 ### Segment-wise feature extraction
 
+For extracting segment-wise features set  ```winsize=-1```, which will extract 84 (=6x14) features from each segment
+
+
 <center>
 <img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_seg.png" width="50%">
 </center>
 
 
-For extracting segment-wise features set  ```winsize=-1```, which will extract 84 (=6x14) features from each segment
 
 ```python
 X_train,y_train,X_test, y_test = Subj.getXy_eeg(task=4,features='rhythmic',verbose=1,
@@ -157,11 +160,12 @@ print('Testing  Accuracy:',np.mean(y_test==ysp))
 
 ### Window-wise Feature Extraction (2sec window)
 
+For extracting Window-wise features with window size 2sec and 50% overlapping set  ```winsize=128*2```, which will extract 84 (=6x14) features from each window
+
 <center>
 <img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_win.png" width="50%">
 </center>
 
-For extracting Window-wise features with window size 2sec and 50% overlapping set  ```winsize=128*2```, which will extract 84 (=6x14) features from each window
 
 
 ```python
