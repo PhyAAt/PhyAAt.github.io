@@ -5,7 +5,7 @@ layout: base
 
 # Feature Extraction Framework
 
-In this notebook, we explain how to extract features segment-wise and window-wise ([check the paper for theoretical details](https://arxiv.org/pdf/2005.11577.pdf)). We would also explain the possible parameters to tune the feature extraction process. PhyAAt library has function to extract Rhythemic features from EEG; either segment-wise or window-wise, so we focus on only EEG feature extraction. Custom features from EEG, PPG or GSR can be done in similar fashion. Figure below shows Feature-Extraction Framework described in [paper](https://arxiv.org/pdf/2005.11577.pdf).
+In this notebook, we explain how to extract features segment-wise and window-wise ([**check the paper for theoretical details**](https://arxiv.org/pdf/2005.11577.pdf)). We would also explain the possible parameters to tune the feature extraction process. PhyAAt library has function to extract Rhythemic features from EEG; either segment-wise or window-wise, so we focus on only EEG feature extraction. Custom features from EEG, PPG or GSR can be done in similar fashion. Figure below shows Feature-Extraction Framework described in [**paper**](https://arxiv.org/pdf/2005.11577.pdf).
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example3_FeatureExtraction.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
