@@ -9,9 +9,11 @@ In this notebook, we explain how to extract features segment-wise and window-wis
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example3_FeatureExtraction.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
+<center>
+<img src = "https://github.com/PhyAAt/PhyAAt.github.io/blob/master/modeling/figures/featureextraction_win.png" width="50%">
+</center>
 
-
-![png](figures/featureextraction_win.png)
+<!-- ![png](figures/featureextraction_win.png) -->
 
 <!-- <img src = "figures/featureextraction_win.png" width=50%> -->
 <!-- https://github.com/PhyAAt/PhyAAt.github.io/blob/master/modeling/figures/featureextraction_win.png?raw=true -->
