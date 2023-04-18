@@ -21,7 +21,8 @@ In this notebook, we explain how to extract features segment-wise and window-wis
 
 
 <h2>Table of Contents<span class="tocSkip"></span></h2>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Read-the-data-of-subject=1" data-toc-modified-id="Read-the-data-of-subject=1-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Read the data of subject=1</a></span></li><li><span><a href="#Filtering" data-toc-modified-id="Filtering-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Filtering</a></span></li><li><span><a href="#Artifact-removal-using-ICA" data-toc-modified-id="Artifact-removal-using-ICA-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Artifact removal using ICA</a></span></li><li><span><a href="#T4:-LWR-Classification" data-toc-modified-id="T4:-LWR-Classification-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>T4: LWR Classification</a></span><ul class="toc-item"><li><span><a href="#Segment-wise-feature-extraction" data-toc-modified-id="Segment-wise-feature-extraction-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Segment-wise feature extraction</a></span></li><li><span><a href="#Window-wise-Feature-Extraction-(2sec-window)" data-toc-modified-id="Window-wise-Feature-Extraction-(2sec-window)-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Window-wise Feature Extraction (2sec window)</a></span><ul class="toc-item"><li><span><a href="#Notice-the-number-of-exmaples-(Shape-of-X,-y)" data-toc-modified-id="Notice-the-number-of-exmaples-(Shape-of-X,-y)-4.2.1"><span class="toc-item-num">4.2.1&nbsp;&nbsp;</span>Notice the number of exmaples (Shape of X, y)</a></span></li></ul></li></ul></li><li><span><a href="#Tuning-Feature-Extraction-process" data-toc-modified-id="Tuning-Feature-Extraction-process-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tuning Feature Extraction process</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#read-the-data-of-subject-1" data-toc-modified-id="Read-the-data-of-subject=1-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Read the data of subject=1</a></span></li><li><span><a href="#filtering" data-toc-modified-id="Filtering-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Filtering</a></span></li><li><span><a href="#artifact-removal-using-ica" data-toc-modified-id="Artifact-removal-using-ICA-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Artifact removal using ICA</a></span></li><li><span><a href="#feature-extraction" data-toc-modified-id="T4:-LWR-Classification-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Feature Extraction for T4: LWR Classification</a></span><ul class="toc-item"><li><span><a href="#segment-wise-feature-extraction" data-toc-modified-id="Segment-wise-feature-extraction-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Segment-wise feature extraction</a></span></li><li><span><a href="#window-wise-feature-extraction" data-toc-modified-id="Window-wise-Feature-Extraction-(2sec-window)-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Window-wise Feature Extraction (2sec window)</a></span><ul class="toc-item"><li><span><a href="#Notice-the-number-of-exmaples-(Shape-of-X,-y)" data-toc-modified-id="Notice-the-number-of-exmaples-(Shape-of-X,-y)-4.2.1"><span class="toc-item-num">4.2.1&nbsp;&nbsp;</span>Notice the number of exmaples (Shape of X, y)</a></span></li></ul></li></ul></li><li><span><a href="#tuning-feature-extraction-process" data-toc-modified-id="Tuning-Feature-Extraction-process-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Tuning Feature Extraction process</a></span></li></ul></div>
+
 
 ## Import Libraries
 
@@ -43,7 +44,7 @@ import phyaat as ph
     Version : 0.0.2
 
 
-## Read the data of subject=1 <a name="Read-the-data-of-subject=1"></a>
+## Read the data of subject=1 <a name="read-the-data-of-subject-1"></a>
 
 ```python
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=1,verbose=0,overwrite=False)
@@ -58,7 +59,7 @@ Subj = ph.Subject(SubID[1])
     Total Subjects :  1
 
 
-## Filtering <a name="#Filtering"></a>
+## Filtering <a name="filtering"></a>
 
 **With Custum frequency range**
 
@@ -67,7 +68,8 @@ Subj = ph.Subject(SubID[1])
 Subj.filter_EEG(band =[0.5],btype='highpass',order=5)
 ```
 
-## Artifact removal using ICA
+## Artifact removal using ICA <a name="artifact-removal-using-ica"></a>
+
 **Tune threshold, windowsize, ICA method**
 
 
@@ -86,9 +88,11 @@ Subj.correct(method='ICA',winsize=winsize,hopesize=None,Corr=Corr,KurThr=KurThr,
     100%|###########################################################|
 
 
-## Feature Extraction for T4: LWR Classification
+## Feature Extraction for T4: LWR Classification <a name="feature-extraction"></a>
 
-### Segment-wise feature extraction
+
+
+### Segment-wise feature extraction <a name="segment-wise-feature-extraction"></a>
 
 For extracting segment-wise features set  ```winsize=-1```, which will extract 84 (=6x14) features from each segment
 
@@ -158,7 +162,9 @@ print('Testing  Accuracy:',np.mean(y_test==ysp))
     Testing  Accuracy: 0.85
 
 
-### Window-wise Feature Extraction (2sec window)
+
+
+### Window-wise Feature Extraction (2sec window) <a name="window-wise-feature-extraction"></a>
 
 For extracting Window-wise features with window size 2sec and 50% overlapping set  ```winsize=128*2```, which will extract 84 (=6x14) features from each window
 
@@ -227,7 +233,7 @@ print('Testing  Accuracy:',np.mean(y_test==ysp))
     Testing  Accuracy: 0.8407079646017699
 
 
-## Tuning Feature Extraction process
+## Tuning Feature Extraction process <a name="tuning-feature-extraction-process"></a>
 
 
 ```python
