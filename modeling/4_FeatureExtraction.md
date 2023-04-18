@@ -5,12 +5,13 @@ layout: base
 
 # Feature Extraction Framework
 
-In this notebook, we explain how to extract features segment-wise and window-wise (check the paper for theoretical details). We would also explain the possible parameters to tune the feature extraction process.
+In this notebook, we explain how to extract features segment-wise and window-wise ([check the paper for theoretical details](https://arxiv.org/pdf/2005.11577.pdf)). We would also explain the possible parameters to tune the feature extraction process. PhyAAt library has function to extract Rhythemic features from EEG; either segment-wise or window-wise, so we focus on only EEG feature extraction. Custom features from EEG, PPG or GSR can be done in similar fashion. Figure below shows Feature-Extraction Framework described in [paper](https://arxiv.org/pdf/2005.11577.pdf).
 
 <p style="text-align:right; font-weight:bold;">Execute with <br><a class="reference external image-reference" href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=PhyAAt_Notebooks/Example3_FeatureExtraction.ipynb" target="_blank"><img src="https://mybinder.org/badge_logo.svg" width="150px"></a></p>
 
+<!-- width="70%" -->
 <center>
-<img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_win.png" width="50%">
+<img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_seg_win.png">
 </center>
 
 <!-- ![png](figures/featureextraction_win.png) -->
@@ -84,14 +85,21 @@ Subj.correct(method='ICA',winsize=winsize,hopesize=None,Corr=Corr,KurThr=KurThr,
     100%|###########################################################|
 
 
-## T4: LWR Classification
+## Feature Extraction for T4: LWR Classification
 
 ### Segment-wise feature extraction
 
+<center>
+<img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_seg.png" width="50%">
+</center>
+
+
+For extracting segment-wise features set  ```winsize=-1```, which will extract 84 (=6x14) features from each segment
 
 ```python
 X_train,y_train,X_test, y_test = Subj.getXy_eeg(task=4,features='rhythmic',verbose=1,
                                   redo=False, winsize=-1,hopesize=None)
+
 ```
 
     100%|##################################################|100\100|Sg - 0
@@ -108,6 +116,8 @@ X_train,y_train,X_test, y_test = Subj.getXy_eeg(task=4,features='rhythmic',verbo
     Done..
 
 
+
+Shape of X_train,y_train,X_test, y_test
 
 ```python
 print('DataShape: ',X_train.shape,y_train.shape,X_test.shape, y_test.shape)
@@ -147,6 +157,12 @@ print('Testing  Accuracy:',np.mean(y_test==ysp))
 
 ### Window-wise Feature Extraction (2sec window)
 
+<center>
+<img src = "https://raw.githubusercontent.com/PhyAAt/PhyAAt.github.io/master/modeling/figures/featureextraction_win.png" width="50%">
+</center>
+
+For extracting Window-wise features with window size 2sec and 50% overlapping set  ```winsize=128*2```, which will extract 84 (=6x14) features from each window
+
 
 ```python
 X_train,y_train,X_test, y_test = Subj.getXy_eeg(task=4,features='rhythmic',
@@ -169,6 +185,7 @@ X_train,y_train,X_test, y_test = Subj.getXy_eeg(task=4,features='rhythmic',
 
 #### Notice the number of exmaples (Shape of X, y)
 
+Shape of X_train,y_train,X_test, y_test
 
 ```python
 print('DataShape: ',X_train.shape,y_train.shape,X_test.shape, y_test.shape)
