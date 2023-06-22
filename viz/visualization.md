@@ -21,6 +21,6 @@ Top left figure shows the activity extracted from raw EEG, and other figures sho
   </div>
 
 
-To generate such plots for static or dynamic measurements, python library - spkit is used. For details check following link - https://spkit.github.io/examples/gen_topo
+To generate such plots for static or dynamic measurements, python library - [spkit](https://spkit.github.io/) is used. For details check following link - [**https://spkit.github.io/examples/gen_topo**](https://spkit.github.io/examples/gen_topo)
 
 
