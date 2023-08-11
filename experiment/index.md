@@ -73,10 +73,10 @@ A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities
 
 | Sex | #Participants | | Age Group      | #Participants |
 | ----------- | ----------- | | ----------- | ----------- |
-| Male  | 21 | | 16-20* | 1|  
-| Femal | 4  | | 21-25  | 6|
-|       |    | | 26-30  | 16|
-|       |    | | 31-35  | 2|
+| Male   | 21 | | 16-20* | 1|  
+| Female | 4  | | 21-25  | 6|
+|        |    | | 26-30  | 16|
+|        |    | | 31-35  | 2|
 
 *Age of >=18, no parents conset was  required
 
