@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://phyaat.github.io/</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/dataset</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/analysis/dwt_wavelet</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/algorithms/ica_algo</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/algorithms/artifact_algo</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/analysis/cwt_wavelet</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/experiment/</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/algorithms/</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/analysis/</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/authors</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/viz/visualization</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/introduction.html</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/introduction</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/license.txt</loc>
+  <lastmod>2023-10-02T00:05:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/authors.html</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/experiment/index</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/index</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/analysis/index</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/index</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/1_QuickStartSVM</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/2_PredictiveTasksUsingSVM</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/3_TuningPreprocessing</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/4_FeatureExtraction</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/5_UsingExternalLibraries</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/6_Modeling_with_DecisionTree</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/7_Artifact_Removal_ATAR</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/8_Custom_Freq_Bands</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/9_Temporal_Features</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/algorithms/artifact_algo.html</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyaat.github.io/modeling/index.html</loc>
+  <lastmod>2023-10-02T00:05:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
