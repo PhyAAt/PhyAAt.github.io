@@ -107,18 +107,26 @@ Here:
 
 In addtion, a file with demographics and self rating of language can be download too.
 
-<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">2. Download Demographic Data File</b></a></p>
+<p style="font-size:20px">
+  <b>
+    <a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">
+      2. Download Demographic Data File
+    </a>
+  </b>
+</p>
   
-<p style="font-size:18px">This data includes age-group, sex, and self-reported ratings for skills (reading/writing/listening/speaking - english) for each subject on 5-point scale </p>
+<p style="font-size:18px">
+  This data includes age-group, sex, and self-reported ratings English Langauge skill in terms of reading, writing, speaking, and listening, for each subject on 5-point scale.
+</p>
 
 File structure is as follow:
 
 | SID | AgeGroup | Sex | Read  | Write | Speak | Listen |
 | ----------- | ----------- | ----------- | -----------  |-----------  |-----------  | -----------  |
-| S1 |  26 to 30 | Male	| 4	| 4 | 3	| 4 |
-| S2 |  26 to 30 | Male |	5 |	3	| 4	| 3 |
-| . |  . | . |	. |	.	| . | .  |
-| S25 | 21 to 25 | Male	| 5	| 5	| 5	| 5 |
+| S1 |  26 to 30 | Male	  | 4	| 4 | 3	| 4 |
+| S4 |  26 to 30 | Female |	5 |	4	| 4	| 4 |
+| .  |  .        | .      |	. |	.	| . | . |
+| S25 | 21 to 25 | Male	  | 5	| 5	| 5	| 5 |
 
 
 Here:
