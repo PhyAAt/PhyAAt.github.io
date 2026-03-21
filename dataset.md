@@ -76,17 +76,20 @@ For statistical analysis of attention score with auditory conditions, download a
 
 <!-- * <h3 class="no-bg" style="color:blue;"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download Tabular Data File</a></h3> -->
 
-<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b> (attention score data) </p>
+<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b></p>
+
+<p style="font-size:18px"> This file include SNR level, sementicity, length of stimulus and attenstion score for each subject in all the trials</p>
 
 <!-- <b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download Tabular Data File here</a></b> -->
 
-File structure is as follow;
+File structure is as follow:
 
 | SID | SNRdB | Semanticity | LengthStim  | AttentionScore |
-| ----------- | ----------- | ----------- | -----------  |
+| ----------- | ----------- | ----------- | -----------  |-----------  |
 | S1 | -6 | 1	| L3	| 11.18881119 |
 | S3 | 1000 | 0	| L2	| 86.16071429 |
 | S5 |  6 | 0	| L1	| 75 |
+| . |  . | .	| .	| . |
 
 
 Here:
@@ -98,10 +101,25 @@ Here:
 
 In addtion, a file with demographics and self rating of language can be download too.
 
-<p style="font-size:20px"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">2. Download Demographic Data File</a> (This data includes age-group, sex, and self-reported ratings for skills (reading/writing/listening/speaking - english) for each subject on 5-point scale)</p>
+<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">2. Download Demographic Data File</b></a></p>
+  
+<p style="font-size:18px">This data includes age-group, sex, and self-reported ratings for skills (reading/writing/listening/speaking - english) for each subject on 5-point scale </p>
+
+File structure is as follow:
+
+| SID | AgeGroup | Sex | Read  | Write | Speak | Listen |
+| ----------- | ----------- | ----------- | -----------  |-----------  |-----------  | -----------  |
+| S1 |  26 to 30 | Male	| 4	| 4 | 3	| 4 |
+| S2 |  26 to 30 | Male |	5 |	3	| 4	| 3 |
+| . |  . | . |	. |	.	| . | .  |
+| S25 | 21 to 25 | Male	| 5	| 5	| 5	| 5 |
 
 
-
+Here:
+* **SID**   : Subject ID, S1 .. S25
+* **AgeGroup** : Age Group: 16-20, 21-25, 26-30, 31-35, 36-40
+* **Sex**: Male, Female, Others
+* **Read/Write/Speak/Listen**: 1 to 5, self-reported reading, writing, speaking, and listening skills of English Language. 1-very poor, 5-excellent.
 
 
 <!--
