@@ -66,6 +66,8 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwr
 If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
 
 
+<h1 class="no-bg">Tabular data</h1>
+
 <div id="tabular-data">
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 </div>
