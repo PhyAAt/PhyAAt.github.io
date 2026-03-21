@@ -6,6 +6,8 @@ layout: base
 
 # PhyAAt Dataset
 
+<hr>
+
 <h2 class="no-bg">Description</h2>
 <div style="text-align: justify">
 The dataset contain three physiological signals recorded at sampling rate of 128Hz from 25 healthy subjects during the experiment. Electroenceplogram (<b>EEG</b>) signal is recorded using a 14-channel Emotiv Epoc device. Two signal streams of Galvanic Skin Response (<b>GSR</b>) were recorded, instantnious sample and moving averaged signal. From photoplethysmogram (<b>PPG</b>) sensor (pulse sensor), a raw signal, inter-beat interval (IBI), and pulse rate were recorded. All the signals were properly labeled. A short segment of recorded signals are shown in Figure-1.<br>
@@ -65,10 +67,14 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwr
 **Manually**<br>
 If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
 
+<hr>
+
+<div id="tabular-data">
 
 <h1 class="no-bg">Tabular data</h1>
 
-<div id="tabular-data">
+<hr>
+
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 </div>
 For statistical analysis of attention score with auditory conditions, download a compiled datasheet as csv file.
