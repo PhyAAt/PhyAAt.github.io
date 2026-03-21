@@ -78,7 +78,9 @@ For statistical analysis of attention score with auditory conditions, download a
 
 <!-- * <h3 class="no-bg" style="color:blue;"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download Tabular Data File</a></h3> -->
 
-<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b>  <a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank" class="btn btn-primary">Download</a> </p>
+<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b>
+</p>
+<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank" class="btn btn-primary">Download</a>
 
 <p style="font-size:18px"> This file include SNR level, sementicity, length of stimulus and attenstion score for each subject in all the trials</p>
 
@@ -104,10 +106,12 @@ Here:
 In addtion, a file with demographics and self rating of language can be download too.
 
 <p style="font-size:20px">
-<b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank"> 2. Download Demographic Data File</a>
-</b><a href=""https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank" class="btn btn-primary">Download</a>
+<b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">
+  2. Download Demographic Data File
+</a></b>
 </p>
-  
+<a href=""https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank" class="btn">Download</a>
+
 <p style="font-size:18px">
   This data includes age-group, sex, and self-reported ratings English Langauge skill in terms of reading, writing, speaking, and listening, for each subject on 5-point scale.
 </p>
