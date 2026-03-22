@@ -65,14 +65,18 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwr
 **Manually**<br>
 If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
 
+<div id="tabular-data"></div>
+
+
 <hr>
 
-<div id="tabular-data">
+<div id="tabular-data-exact">
 
 <h1 class="no-bg">Tabular data</h1>
 
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 </div>
+
 For statistical analysis of attention score with auditory conditions, download a compiled datasheet as csv file.
 <!-- https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv -->
 
