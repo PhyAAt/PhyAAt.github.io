@@ -6,6 +6,24 @@ layout: base
 <div class="section" id="experiment"></div>
   <!--<h1>Under construction...<a class="headerlink" href="#experiment" title="Permalink to this headline">¶</a></h1> -->
 
+
+<style>
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #2121286d;
+}
+
+th{
+    border:1px solid #000000;
+}
+
+td{
+    border:1px dashed #000000;
+}
+</style>
+
+
 # Experiment paradigm
 *Due to relevent article under double blind review, contents are not fully updated here, will be uodated soon..*
 <div style="text-align: justify">
@@ -56,7 +74,77 @@ where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$
 ## Participents - demographics
 A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities with 11 different first languages, majority age group of 26-30 were chosen for the experiment.
 
-| Nationality | #Participants | | First language      | #Participants |
+
+<div style="display:inline-block;padding:1rem;vertical-align: top;">
+<table>
+  <tr>
+    <th>Nationality</th>
+    <th>#Participants</th>
+  </tr>
+  <tr><td>Algerian</td><td>1</td></tr>
+  <tr><td>Indian</td><td>8</td></tr>
+  <tr><td>Iranian</td><td>3</td></tr>
+  <tr><td>Italian</td><td>4</td></tr>
+  <tr><td>Kazakh</td><td>1</td></tr>
+  <tr><td>Lebanese</td><td>4</td></tr>
+  <tr><td>Moroccan</td><td>1</td></tr>
+  <tr><td>Nepalese</td><td>1</td></tr>
+  <tr><td>Pakistani</td><td>1</td></tr>
+  <tr><td>Tunisian</td><td>1</td></tr>
+</table>
+</div>
+
+
+<div style="display:inline-block;padding:1rem;vertical-align: top;">
+<table>
+  <tr>
+    <th>First language</th>
+    <th>#Participants</th>
+  </tr>
+  <tr><td>Arabic</td><td>7</td></tr>
+  <tr><td>Farsi</td><td>3</td></tr>
+  <tr><td>Italian</td><td>4</td></tr>
+  <tr><td>Kannada</td><td>1</td></tr>
+  <tr><td>Kazakh</td><td>1</td></tr>
+  <tr><td>Mathili</td><td>1</td></tr>
+  <tr><td>Malayalam</td><td>4</td></tr>
+  <tr><td>Marathi</td><td>1</td></tr>
+  <tr><td>Tamil</td><td>1</td></tr>
+  <tr><td>Telgu</td><td>1</td></tr>
+  <tr><td>Urdu</td><td>1</td></tr>
+</table>
+</div>
+
+
+<div style="display:inline-block;padding:1rem;vertical-align: top;">
+<table>
+  <tr>
+    <th>Sex</th>
+    <th>#Participants</th>
+  </tr>
+  <tr><td>Male</td><td>21</td></tr>
+  <tr><td>Female</td><td>4</td></tr>
+  <tr><td>Others</td><td>0</td></tr>
+</table>
+</div>
+
+
+<div style="display:inline-block;padding:1rem;vertical-align: top;">
+<table>
+  <tr>
+    <th>Age-group</th>
+    <th>#Participants</th>
+  </tr>
+  <tr><td>16-20*</td><td>1</td></tr>
+  <tr><td>21-25 </td><td>6</td></tr>
+  <tr><td>26-30</td><td>16</td></tr>
+  <tr><td>31-35</td><td>2</td></tr>
+</table>
+</div>
+
+
+
+<!-- | Nationality | #Participants | | First language      | #Participants |
 | ----------- | ----------- | | ----------- | ----------- |
 | Algerian | 1 | | Arabic | 7|
 | Indian   | 8 | | Farsi  | 3|
@@ -68,15 +156,17 @@ A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities
 | Nepalese | 1 | | Marathi| 1|
 | Pakistani| 1 | | Tamil  | 1|
 | Tunisian | 1 | | Telgu  | 1|
-|          |   | | Urdu   | 1|
+|          |   | | Urdu   | 1| -->
 
 
-| Sex | #Participants | | Age Group      | #Participants |
+<br>
+
+<!-- | Sex | #Participants | | Age Group      | #Participants |
 | ----------- | ----------- | | ----------- | ----------- |
 | Male   | 21 | | 16-20* | 1|  
 | Female | 4  | | 21-25  | 6|
 |        |    | | 26-30  | 16|
-|        |    | | 31-35  | 2|
+|        |    | | 31-35  | 2| -->
 
 *Age of >=18, no parents conset was  required
 

@@ -47,6 +47,7 @@ A Tutorial of explaining how to remove artifact from EEG can be found: <a href="
   <li>* <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank"><strong>Jupyter Notebook </strong></a></li>
   <li>* <a href="https://spkit.github.io/guide/notebooks/ATAR_Algorithm_EEG_Artifact_Removal.html" target="_blank"><strong>HTML Friendly</strong></a></li>
   <li>* <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank"><strong>Binder</strong></a></li>
+  <li> * <a href="https://link.medium.com/90mYhbr8Osb" target="_blank"> <strong>blog post </strong></a></li>
 </ul>
 
 
@@ -58,7 +59,6 @@ A Tutorial of explaining how to remove artifact from EEG can be found: <a href="
 <ul class="simple">
 <li> * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Jupyter Notebook </strong></a></li>
 <li> * <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Binder </strong></a></li>
-<li> * <a href="https://link.medium.com/90mYhbr8Osb" target="_blank"> <strong>blog post </strong></a></li>
 </ul>
 
 <h2>Wavelet based other approachs</h2>
