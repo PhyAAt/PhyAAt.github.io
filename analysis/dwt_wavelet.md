@@ -20,10 +20,10 @@ layout: base
     <head>
         <title>Teaching</title>
      <meta charset="UTF-8" />
-     <meta http-equiv="refresh" content="0; URL=https://spkit.github.io/examples/wfilter" />
+     <meta http-equiv="refresh" content="0; URL=https://spkit.github.io/modules/sp_dwt.html" />
    </head>
    <body>
-     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://spkit.github.io/examples/wfilter">here</a> to go to the Teaching.</p>
+     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://spkit.github.io/modules/sp_dwt.html">here</a> to go to the Teaching.</p>
    </body>
 </html>
   

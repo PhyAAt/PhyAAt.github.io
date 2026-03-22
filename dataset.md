@@ -43,7 +43,7 @@ Textscore file contain, TimeStamp, Attention Score (Correctness Score), Total Wo
 
 
 
-<h2 class="no-bg">Download the dataset</h2>
+<h2 class="no-bg">Download the physiological dataset</h2>
 
 **Python** <br>
 To download the dataset, install phyaat library and download through it.
@@ -65,11 +65,11 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwr
 **Manually**<br>
 If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
 
+<hr>
+
 <div id="tabular-data">
 
 <h1 class="no-bg">Tabular data</h1>
-
-<hr>
 
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 </div>
@@ -80,7 +80,7 @@ For statistical analysis of attention score with auditory conditions, download a
 
 <p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b>
 </p>
-<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank" class="btn btn-primary">Download</a>
+<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank" class="btn btn-secodary">Download file</a>
 
 <p style="font-size:18px"> This file include SNR level, sementicity, length of stimulus and attenstion score for each subject in all the trials</p>
 
@@ -105,12 +105,13 @@ Here:
 
 In addtion, a file with demographics and self rating of language can be download too.
 
-<p style="font-size:20px">
+<p style="font-size:20px;display:inline-block;">
 <b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank">
   2. Download Demographic Data File
-</a></b>
+</a></b> 
 </p>
-<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank" class="btn">Download</a>
+<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_Demographic_Rating_v1.csv" target="_blank" class="btn btn-secodary">Download file</a>
+
 
 <p style="font-size:18px">
   This data includes age-group, sex, and self-reported ratings English Langauge skill in terms of reading, writing, speaking, and listening, for each subject on 5-point scale.

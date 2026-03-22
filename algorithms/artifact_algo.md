@@ -20,9 +20,9 @@ layout: base
     <head>
      <title>Artifact Removal Algorithm</title>
      <meta charset="UTF-8" />
-     <meta http-equiv="refresh" content="0; URL=https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" />
+     <meta http-equiv="refresh" content="0; URL=https://spkit.github.io/auto_examples/electroencephalogram/plot_sp_ATAR_algorithm_tuning.html" />
    </head>
    <body>
-     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb">here</a> to go to the Teaching.</p>
+     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://spkit.github.io/auto_examples/electroencephalogram/plot_sp_ATAR_algorithm_tuning.html">here</a> to go to the Teaching.</p>
    </body>
 </html>  

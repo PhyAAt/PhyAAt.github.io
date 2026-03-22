@@ -1349,6 +1349,32 @@ div#banner.banner img {
     background-color: #F89939;
 }
 
+.btn-secodary {
+    padding: 4px 12px;
+    margin: 0.1em;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 10px;
+    color: #2b2626;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-image: -moz-linear-gradient(top, #88aeff, #7faeec);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7faeec), to(#7faeec));
+    background-image: -webkit-linear-gradient(top, #88aeff, #7faeec);
+    background-image: -o-linear-gradient(top, #88aeff, #7faeec);
+    background-image: linear-gradient(to bottom, #88aeff, #7faeec);
+    background-repeat: repeat-x;
+    border-color: #88aeff #88aeff #88aeff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-secodary:hover, .btn-secodary:focus, .btn-secodary:active, .btn-secodary.active, .btn-secodary.disabled, .btn-secodary[disabled] {
+    color: #2b2626;;
+    background-color: #88a3db;
+}
+
+
 .btn:hover, .btn:focus {
     text-decoration: none;
     background-position: 0 -15px;
