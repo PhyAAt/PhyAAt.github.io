@@ -67,7 +67,7 @@ $$
 \end{eqnarray}
 $$
 
-where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$: $$R \rightarrow F_r$$
+where $$F_r$$ is feature vector extracted from Physiological Responses $$R$$ using a feature extraction method as $$\psi$$: $$R \rightarrow F_r$$
 
 
 
@@ -171,4 +171,4 @@ A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities
 *Age of >=18, no parents conset was  required
 
 ## Collected Dataset
-For details about collected dataset - please see [**here**](/dataset)
+For details about collected dataset - please see [**here**](/dataset) <a href="/dataset" class="btn btn-secodary">dataset</a>
