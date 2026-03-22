@@ -12,24 +12,34 @@ A Tutorial of explaining how to remove artifact from EEG can be found: <a href="
  
 <br>
 
-<img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="90%">
+<img class="center" src="{{ "/assets/images/Algorithm_BD1.png" | relative_url }}" width="60%">
 
+<br>
+<br>
+
+<h4>Tuning $\beta$</h4>
+
+<b>How tuning of $\beta$ with different operating mode affects signal</b>
+<center>
+<figure>
+<img style="float: center;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="100%">
+</figure>
+</center> 
+
+<br>
+
+<h4>Comparative results</h4>
+
+<center>
 <figure>
 <!-- <img style="float: left;"  src="{{ "/assets/images/SignalsSeg3_WPD50_a.png" | relative_url }}" width="49%">
 <img style="float: right;"  src="{{ "/assets/images/SignalsSeg3_WPD50_b.png" | relative_url }}" width="49%"> -->
  
-<img style="float: right;"  src="{{ "/assets/images/ATAR_ICA_1.PNG" | relative_url }}" width="85%">
-</figure>
-
-<center>
-<figure>
-<img style="float: center;"  src="{{ "/assets/images/Beta.gif" | relative_url }}" width="80%">
+<img style="float: center;"  src="{{ "/assets/images/ATAR_ICA_1.PNG" | relative_url }}" width="85%">
 </figure>
 </center>  
 
- 
- 
- <br>
+<br>
 
 <strong>Python implementation </strong> of ATAR Algorithm is now available on <strong>Spkit</strong> library, the examples of which can be found here
  
@@ -38,7 +48,6 @@ A Tutorial of explaining how to remove artifact from EEG can be found: <a href="
   <li>* <a href="https://spkit.github.io/guide/notebooks/ATAR_Algorithm_EEG_Artifact_Removal.html" target="_blank"><strong>HTML Friendly</strong></a></li>
   <li>* <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ATAR_Algorithm_EEG_Artifact_Removal.ipynb" target="_blank"><strong>Binder</strong></a></li>
 </ul>
-Soon will be integrated to phyaat library.
 
 
 <!--<a><img alt="Under construction" src="../_images0/IPR.gif" width="300"></a>-->
@@ -49,6 +58,7 @@ Soon will be integrated to phyaat library.
 <ul class="simple">
 <li> * <a href="https://nbviewer.org/github/Nikeshbajaj/Notebooks/blob/master/spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Jupyter Notebook </strong></a></li>
 <li> * <a href="https://mybinder.org/v2/gh/Nikeshbajaj/Notebooks/master?filepath=spkit/SP/ICA_based_Artifact_Removal.ipynb" target="_blank"> <strong>Binder </strong></a></li>
+<li> * <a href="https://link.medium.com/90mYhbr8Osb" target="_blank"> <strong>blog post </strong></a></li>
 </ul>
 
 <h2>Wavelet based other approachs</h2>

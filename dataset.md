@@ -3,6 +3,22 @@ title: dataset
 layout: base
 ---
 
+<style>
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #2121286d;
+}
+
+th{
+    border:1px solid #000000;
+}
+
+td{
+    border:1px dashed #000000;
+}
+</style>
+
 
 # PhyAAt Dataset
 
@@ -60,7 +76,10 @@ dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=1,verbose=0,overwri
 # to download dataset of all the subjects
 dirPath = ph.download_data(baseDir='../PhyAAt_Data', subject=-1,verbose=0,overwrite=False)
 ```
-**[CHECK THE STARTER GUIDE](/introduction)**
+<!-- **[CHECK THE STARTER GUIDE](/introduction)** -->
+
+<a href="/introduction" class="btn btn-secodary">CHECK THE STARTER GUIDE</a>
+
 
 **Manually**<br>
 If you are using other programming framework such as matlab or R, Download dataset manually from [**Github repository**](https://github.com/Nikeshbajaj/PhyaatDataset) and extract all the csv files.
@@ -76,7 +95,6 @@ If you are using other programming framework such as matlab or R, Download datas
 
 <h2 class="no-bg">Download tabular data for statistical analysis</h2>
 </div>
-
 For statistical analysis of attention score with auditory conditions, download a compiled datasheet as csv file.
 <!-- https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv -->
 
