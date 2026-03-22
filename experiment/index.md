@@ -119,17 +119,15 @@ A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities
 <div style="display:inline-block;padding:1rem;vertical-align: top;">
 <table>
   <tr>
-    <th>Sex</th>
+    <th>Sex &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     <th>#Participants</th>
   </tr>
   <tr><td>Male</td><td>21</td></tr>
   <tr><td>Female</td><td>4</td></tr>
   <tr><td>Others</td><td>0</td></tr>
 </table>
-</div>
-
-
-<div style="display:inline-block;padding:1rem;vertical-align: top;">
+<br>
+<br>
 <table>
   <tr>
     <th>Age-group</th>
@@ -141,6 +139,20 @@ A total of 25 participants, 21 Males, 4 Females, from 10 different nationalities
   <tr><td>31-35</td><td>2</td></tr>
 </table>
 </div>
+
+
+<!-- <div style="display:inline-block;padding:1rem;vertical-align: top;">
+<table>
+  <tr>
+    <th>Age-group</th>
+    <th>#Participants</th>
+  </tr>
+  <tr><td>16-20*</td><td>1</td></tr>
+  <tr><td>21-25 </td><td>6</td></tr>
+  <tr><td>26-30</td><td>16</td></tr>
+  <tr><td>31-35</td><td>2</td></tr>
+</table>
+</div> -->
 
 
 
