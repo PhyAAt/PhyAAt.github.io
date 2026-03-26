@@ -100,11 +100,13 @@ For statistical analysis of attention score with auditory conditions, download a
 
 <!-- * <h3 class="no-bg" style="color:blue;"><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download Tabular Data File</a></h3> -->
 
-<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Attention Score Data File</a></b>
+<p style="font-size:20px"><b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">1. Download Tabular Data File here</a></b>
 </p>
 <a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank" class="btn btn-secodary">Download file</a>
 
-<p style="font-size:18px"> This file include SNR level, sementicity, length of stimulus and attenstion score for each subject in all the trials</p>
+<p style="font-size:18px"> This file includes noise level, sementicity, length of stimulus and attenstion score for each subject, <b>averaged across each experimental setting</b>.</p>
+
+The total number of different experiment conditions are $6\times 2 \times 3 = 36$, so in this file there are 36 rows for each subject, totaling to $36 \times 25 = 900$ rows.
 
 <!-- <b><a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScoreData_v1.csv" target="_blank">Download Tabular Data File here</a></b> -->
 
@@ -112,8 +114,8 @@ File structure is as follow:
 
 | SID | SNRdB | Semanticity | LengthStim  | AttentionScore |
 | ----------- | ----------- | ----------- | -----------  |-----------  |
-| S1 | -6 | 1	| L3	| 11.189 |
-| S3 | 1000 | 0	| L2	| 86.161 |
+| S1 | -6 | 1	| L3	| 11.18881119 |
+| S3 | 1000 | 0	| L2	| 86.16071429 |
 | S5 |  6 | 0	| L1	| 75 |
 | . |  . | .	| .	| . |
 
@@ -124,6 +126,11 @@ Here:
 * **Semanticity**: Semanticity, 0-Semantic, 1-Non Semantic
 * **LengthStim**: Length of stimulus, L1-small, L2-medium, and L3-long
 * **AttentionScore**: Average Attention score for given condition (average score of multiple stimuli in same auditory condition). Attention score ranges from 0 to 100, as a level of attention.
+
+
+<p style="font-size:18px"> <b>For data on each trial for each subject, $144 \times 25 \approx 3597$ , download file here </b>.</p> 
+<a href="https://nikeshbajaj.github.io/PhyaatDataset/PhyAAt_AttentionScore_AllTrials_v1.csv" target="_blank" class="btn btn-secodary">Download file - all trials</a>
+
 
 In addtion, a file with demographics and self rating of language can be download too.
 
